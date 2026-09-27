@@ -38,7 +38,6 @@ try:
     # --- 2. datos + comenzar ---
     botones[FORMA - 1].click()
     drv.find_element(By.ID, "inNombre").send_keys("Participante Prueba")
-    drv.find_element(By.ID, "inDoc").send_keys("12345678")
     btn = drv.find_element(By.ID, "btnComenzar")
     if btn.get_attribute("disabled"):
         fallos.append("el boton Comenzar sigue deshabilitado")
@@ -101,7 +100,6 @@ try:
         fallos.append("no se vuelve al inicio")
     drv.find_element(By.CSS_SELECTOR, ".fbtn").click()
     drv.find_element(By.ID, "inNombre").send_keys("X")
-    drv.find_element(By.ID, "inDoc").send_keys("1")
     drv.find_element(By.ID, "btnComenzar").click()
     time.sleep(1.0)
     if drv.find_element(By.ID, "exForma").text.strip() != "Forma 1":

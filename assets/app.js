@@ -61,11 +61,7 @@
   }
 
   function leerDatos() {
-    return {
-      nombre: $("#inNombre").value.trim(),
-      documento: $("#inDoc").value.trim(),
-      correo: $("#inMail").value.trim()
-    };
+    return { nombre: $("#inNombre").value.trim() };
   }
 
   /* ---------------- examen ---------------- */
@@ -199,10 +195,8 @@
       mode: "no-cors",
       headers: { "Content-Type": "text/plain;charset=utf-8" },
       body: JSON.stringify({
-        nombre: S.datos.nombre,
-        documento: S.datos.documento,
-        correo: S.datos.correo,
-        forma: S.forma,
+      nombre: S.datos.nombre,
+      forma: S.forma,
         aciertos: res.aciertos,
         total: res.total
       })
@@ -415,8 +409,6 @@
       if (prev) { S.indice = prev.indice || 0; S.resp = prev.resp || {}; S.marcadas = prev.marcadas || {}; S.datos = prev.datos || {}; }
       else { S.datos = leerDatos(); }
       $("#inNombre").value = S.datos.nombre || "";
-      $("#inDoc").value = S.datos.documento || "";
-      $("#inMail").value = S.datos.correo || "";
       $("#exNombre").textContent = S.datos.nombre;
       ver("examen");
       pintarPregunta();
@@ -431,7 +423,7 @@
 
     $("#btnComenzar").addEventListener("click", function () {
       S.datos = leerDatos();
-      if (!S.datos.nombre || !S.datos.documento) {
+      if (!S.datos.nombre) {
         $("#avisoDatos").hidden = false;
         return;
       }

@@ -16,7 +16,7 @@
  *      "Conectar ranking" que aparece en la pagina de inicio.
  *
  * La hoja "Resultados" se crea sola con estas columnas:
- *   Fecha | Nombre | Documento | Correo | Forma | Aciertos | Total | Porcentaje
+ *   Fecha | Nombre | Forma | Aciertos | Total | Porcentaje
  */
 
 // ------------------------------------------------------------------ CONFIG
@@ -36,7 +36,7 @@ function ss() {
   // script independiente: buscar la hoja de la que cuelga
   var padres = SpreadsheetApp.getActive().getFile().getParents();
   for (var i = 0; i < padres.length; i++) {
-    if (padres[i].getMimeType() === MimeType.GOOGLE_SHEET) {
+    if (padres[i].getMimeType() === 'application/vnd.google-apps.spreadsheet') {
       return SpreadsheetApp.openById(padres[i].getId());
     }
   }
@@ -48,10 +48,9 @@ function tabla() {
   var hoja = libro.getSheetByName(HOJA);
   if (!hoja) {
     hoja = libro.insertSheet(HOJA);
-    hoja.appendRow(['Fecha', 'Nombre', 'Documento', 'Correo', 'Forma',
-                    'Aciertos', 'Total', 'Porcentaje']);
+    hoja.appendRow(['Fecha', 'Nombre', 'Forma', 'Aciertos', 'Total', 'Porcentaje']);
     hoja.setFrozenRows(1);
-    hoja.getRange(1, 1, 1, 8).setFontWeight('bold');
+    hoja.getRange(1, 1, 1, 6).setFontWeight('bold');
     hoja.getRange('A:A').setNumberFormat('dd/mm/yyyy hh:mm');
   }
   return hoja;
@@ -88,14 +87,14 @@ function doGet(e) {
   }
 }
 
-/** POST /exec  con cuerpo JSON plano: {nombre, documento, correo, forma, aciertos, total} */
+/** POST /exec  con cuerpo JSON plano: {nombre, forma, aciertos, total} */
 function doPost(e) {
   var lock = LockService.getScriptLock();
   try {
     lock.waitLock(20000);
     var d = JSON.parse((e && e.postData && e.postData.contents) || '{}');
-    if (!limpio(d.nombre, 60) || !limpio(d.documento, 20) || !num(d.forma)) {
-      return json({ ok: false, error: 'faltan nombre, documento o forma' });
+    if (!limpio(d.nombre, 40) || !num(d.forma)) {
+      return json({ ok: false, error: 'faltan el nombre o la forma' });
     }
     var total = num(d.total) || 50;
     var aciertos = num(d.aciertos);
@@ -105,9 +104,7 @@ function doPost(e) {
     var hoja = tabla();
     hoja.appendRow([
       new Date(),
-      limpio(d.nombre, 60),
-      limpio(d.documento, 20),
-      limpio(d.correo, 80),
+      limpio(d.nombre, 40),
       num(d.forma),
       aciertos,
       total,
@@ -129,14 +126,14 @@ function doPost(e) {
 function top(n) {
   var hoja = ss().getSheetByName(HOJA);
   if (!hoja || hoja.getLastRow() < 2) return [];
-  var v = hoja.getRange(2, 1, hoja.getLastRow() - 1, 8).getValues();
+  var v = hoja.getRange(2, 1, hoja.getLastRow() - 1, 6).getValues();
   var out = [];
   for (var i = 0; i < v.length; i++) {
     var r = v[i];
     if (!r[1]) continue;
     out.push({
-      nombre: r[1], documento: r[2], forma: r[4],
-      aciertos: r[5], total: r[6], pct: r[7], fecha: r[0]
+      nombre: r[1], forma: r[2],
+      aciertos: r[3], total: r[4], pct: r[5], fecha: r[0]
     });
   }
   out.sort(function (a, b) {

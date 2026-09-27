@@ -14,7 +14,7 @@ Simulador de examen de admisión construido a partir de un valotario impreso de 
 
 1. Abre la página (GitHub Pages).
 2. Elige tu forma (1 a 20).
-3. Escribe tu nombre y documento.
+3. Escribe tu nombre.
 4. Responde las 50 preguntas. Puedes marcar las que quieras revisar y usar el mapa de preguntas.
 5. Entrega y mira tu puntaje, tu desglose por tema y el ranking.
 
@@ -76,7 +76,7 @@ lo que usas tú para probar.
    ```
 8. Sube el cambio a GitHub (tarda de 1 a 2 minutos en reflejarse en Pages).
 
-La hoja `Resultados` se crea sola con las columnas: Fecha, Nombre, Documento, Correo, Forma,
+La hoja `Resultados` se crea sola con las columnas: Fecha, Nombre, Forma, Aciertos,
 Aciertos, Total, Porcentaje.
 
 **Orden de prioridad de la URL** (en `assets/app.js`):

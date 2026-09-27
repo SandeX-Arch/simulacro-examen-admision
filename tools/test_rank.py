@@ -52,7 +52,6 @@ try:
     # --- 4. entregar un intento y ver que se POSTea ---
     drv.find_elements(By.CSS_SELECTOR, ".fbtn")[0].click()
     drv.find_element(By.ID, "inNombre").send_keys("Post De Prueba")
-    drv.find_element(By.ID, "inDoc").send_keys("99999999")
     drv.find_element(By.ID, "btnComenzar").click()
     time.sleep(1.0)
     # contestar 3 preguntas DISTINTAS y entregar (debe avisar que faltan)
@@ -99,10 +98,12 @@ try:
         else:
             d = json.loads(lineas[-1])
             print("  payload:", json.dumps(d, ensure_ascii=False))
-            for k, v in (("nombre", "Post De Prueba"), ("documento", "99999999"), ("forma", 1),
+            for k, v in (("nombre", "Post De Prueba"), ("forma", 1),
                          ("aciertos", 50), ("total", 50)):
                 if d.get(k) != v:
                     fallos.append("payload %s = %r, se esperaba %r" % (k, d.get(k), v))
+            if "documento" in d or "correo" in d:
+                fallos.append("el payload sigue enviando documento/correo: %s" % d)
 
     # el ranking se refresca solo
     time.sleep(3.0)
