@@ -2,45 +2,58 @@
  * Simulacro de Admisión — backend en Google Sheets + Apps Script
  * =============================================================
  *
- * CÓMO MONTARLO
- *   1. Crea un Google Sheet nuevo y anota su ID (esta en la URL, entre /d/ y /edit).
- *   2. Menú Extensiones > Apps Script.
- *   3. Borra lo que haya en Code.gs y pega TODO este archivo.
- *   4. Pega tu ID en SPREADSHEET_ID (abajo). Si lo dejas vacio y el script
- *      esta ligado a un Sheet, se deduce solo.
- *   5. Implementar > Nueva aplicación web
+ * CÓMO MONTARLO (no necesitas editar nada, solo pegar y publicar)
+ *   1. Crea un Google Sheet nuevo.
+ *   2. Con el Sheet abierto: menu Extensiones > Apps Script.
+ *   3. Borra lo que haya en Code.gs y pega TODO este archivo. Guarda.
+ *   4. Menu Implementar > Nueva aplicacion web
  *        - Ejecutar como:      Yo
- *        - Quién tiene acceso: Cualquiera
- *   6. Copia la URL que termina en /exec.
- *   7. En el sitio: pegala en data/config.js y sube el cambio, o usa el panel
- *      "Conectar ranking" que aparece en la pagina de inicio.
+ *        - Quien tiene acceso: Cualquiera  (o "Cualquier persona")
+ *      Acepta los avisos de permiso.
+ *   5. Copia la URL que termina en /exec.
+ *   6. En el sitio, despliega el panel "Conectar el ranking compartido", pega
+ *      esa URL y pulsa "Guardar y activar".
  *
- * La hoja "Resultados" se crea sola con estas columnas:
+ *   Para que lo usen todos sin configurar nada, pega la URL en data/config.js
+ *   del repositorio y sube el cambio.
+ *
+ *   La hoja "Resultados" se crea sola con estas columnas, con el titulo fijo:
  *   Fecha | Nombre | Forma | Aciertos | Total | Porcentaje
+ *
+ *   Si da error de hoja, pega el ID del Sheet (esta en su URL, entre /d/ y /edit)
+ *   en SPREADSHEET_ID.
  */
 
 // ------------------------------------------------------------------ CONFIG
-var SPREADSHEET_ID = '';        // <-- pega aqui el ID de tu Google Sheet
+// Dejalo vacio si el script esta ligado a un Sheet (lo normal: Apps Script se
+// abrio desde el propio Sheet). Solo rellenalo si da error de hoja.
+var SPREADSHEET_ID = '';
 var HOJA = 'Resultados';
 var MAX_FILAS = 20000;
 var TOP_N = 50;
 
 // ------------------------------------------------------------------ HELPERS
+var _ultimaRuta = '';   // como se localizo el Sheet, para el diagnostico
+
 /** Localiza el Sheet valga como este: ID explicito, hoja activa o hoja madre del script. */
 function ss() {
   if (SPREADSHEET_ID) {
+    _ultimaRuta = 'SPREADSHEET_ID';
     return SpreadsheetApp.openById(String(SPREADSHEET_ID).trim());
   }
   var act = SpreadsheetApp.getActiveSpreadsheet();
-  if (act) return act;
-  // script independiente: buscar la hoja de la que cuelga
+  if (act) { _ultimaRuta = 'hoja activa'; return act; }
+
+  // script independiente: buscar la hoja de la que cuelga el archivo .gs
   var padres = SpreadsheetApp.getActive().getFile().getParents();
   for (var i = 0; i < padres.length; i++) {
     if (padres[i].getMimeType() === 'application/vnd.google-apps.spreadsheet') {
+      _ultimaRuta = 'hoja madre del script';
       return SpreadsheetApp.openById(padres[i].getId());
     }
   }
-  throw new Error('No se encontro la hoja. Pega el ID en SPREADSHEET_ID.');
+  throw new Error('No se encontro la hoja. Abre el ID del Sheet (esta en su URL, ' +
+    'entre /d/ y /edit) y pegalo en SPREADSHEET_ID.');
 }
 
 function tabla() {
@@ -77,6 +90,7 @@ function doGet(e) {
       return json({
         ok: true,
         hoja: h ? HOJA : '(se creara al primer envio)',
+        via: _ultimaRuta,
         hojaExiste: !!h,
         resultados: h ? Math.max(0, h.getLastRow() - 1) : 0
       });

@@ -40,8 +40,9 @@
     </summary>
 
     <ol class="steps">
-      <li>Crea un Google Sheet nuevo y abre <b>Extensiones → Apps Script</b>.</li>
-      <li>Borra el contenido de <code>Code.gs</code> y pega el código del backend:
+      <li>Crea un Google Sheet nuevo (se llama <i>Hoja de cálculo sin título</i>).</li>
+      <li>Con el Sheet abierto: <b>Extensiones → Apps Script</b>. Se abre un panel con un
+        archivo llamado <code>Code.gs</code>. <b>Borra todo</b> lo que haya ahí y pega esto:
         <div class="codepane">
           <textarea id="gsCode" readonly spellcheck="false" aria-label="Codigo de Apps Script"></textarea>
           <div class="row">
@@ -49,12 +50,15 @@
             <a class="btn btn-ghost" href="https://github.com/SandeX-Arch/simulacro-examen-admision/blob/master/code/Code.gs" target="_blank" rel="noopener">Abrir en GitHub</a>
           </div>
         </div>
+        No hace falta cambiar nada más: el código encuentra tu Sheet solo. Guarda con
+        <kbd>Ctrl</kbd>+<kbd>S</kbd>.
       </li>
-      <li>En el código, pega el ID de tu Sheet en <code>SPREADSHEET_ID</code>
-        (aparece en la URL del Sheet, entre <code>/d/</code> y <code>/edit</code>).</li>
-      <li><b>Implementar → Nueva aplicación web</b>:
-        <i>Ejecutar como: Yo</i> · <i>Quién tiene acceso: Cualquiera</i>.</li>
-      <li>Pega aquí la URL que termina en <code>/exec</code>:
+      <li>Arriba a la derecha, <b>Implementar → Nueva aplicación web</b>.<br>
+        <i>Ejecutar como</i>: <b>Yo</b> &nbsp;·&nbsp; <i>Quién tiene acceso</i>: <b>Cualquiera</b><br>
+        (si no aparece la opción, busca <i>Cualquier persona</i>). Pulsa <b>Implementar</b> y
+        acepta los avisos de permiso. A veces pide autorização: entra con tu cuenta y acepta.
+      </li>
+      <li>Te aparecerá una URL que termina en <code>/exec</code>. Cópiala y pégala aquí:
         <div class="row wrap">
           <input id="inApi" class="grow" type="url" spellcheck="false"
                  placeholder="https://script.google.com/macros/s/AKfycb.../exec">
@@ -68,6 +72,10 @@
     <p class="muted small">
       Esto guarda la URL solo en <b>este navegador</b>, para que puedas probar el ranking ya.
       Para que lo usen todos, deja la URL en <code>data/config.js</code> y súbelo al repositorio.
+    </p>
+    <p class="muted small">
+      <b>¿Falló?</b> Abre tu URL con <code>?accion=ping</code> añadida al final y dime qué
+      sale. La hoja de resultados se crea sola en tu primer intento; no hace falta crearla.
     </p>
   </details>
 </section>

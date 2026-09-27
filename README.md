@@ -60,16 +60,16 @@ lo que usas tú para probar.
 
 ### Opción definitiva (para que lo usen todos)
 
-1. Crea un Google Sheet nuevo y anota su ID (está en la URL, entre `/d/` y `/edit`).
-2. Menú **Extensiones → Apps Script**.
+1. Crea un Google Sheet nuevo.
+2. Con el Sheet abierto: menú **Extensiones → Apps Script**.
 3. Borra el contenido de `Code.gs` y pega el archivo de `code/Code.gs` de este repositorio
-   (el panel del sitio tiene un botón para copiarlo).
-4. Pega tu ID en `SPREADSHEET_ID`. Si lo dejas vacío y el script está ligado a un Sheet,
-   se deduce solo.
+   (el panel del sitio tiene un botón para copiarlo). Guarda con `Ctrl+S`.
+4. **No hace falta editar nada más**: el script localiza tu Sheet solo. Solo si te da error de
+   hoja, pega el ID del Sheet (está en su URL, entre `/d/` y `/edit`) en `SPREADSHEET_ID`.
 5. **Implementar → Nueva aplicación web**
    - Ejecutar como: **Yo**
-   - Quién tiene acceso: **Cualquiera**
-6. Copia la URL que termina en `/exec`.
+   - Quién tiene acceso: **Cualquiera** (o "Cualquier persona")
+6. Acepta los avisos de permiso y copia la URL que termina en `/exec`.
 7. Pégala en `data/config.js`:
    ```js
    window.APP_CONFIG = { sheetsApiUrl: "https://script.google.com/macros/s/TU_ID/exec" };
@@ -77,7 +77,7 @@ lo que usas tú para probar.
 8. Sube el cambio a GitHub (tarda de 1 a 2 minutos en reflejarse en Pages).
 
 La hoja `Resultados` se crea sola con las columnas: Fecha, Nombre, Forma, Aciertos,
-Aciertos, Total, Porcentaje.
+Total, Porcentaje.
 
 **Orden de prioridad de la URL** (en `assets/app.js`):
 
@@ -86,7 +86,8 @@ Aciertos, Total, Porcentaje.
 3. `data/config.js` — el valor oficial, el que ven todos
 
 **Diagnóstico:** abre `TU_URL?accion=ping` en el navegador. Si responde
-`{"ok":true,...}` el script está vivo y te dice cuántos resultados hay.
+`{"ok":true,...}` el script está vivo; el campo `via` indica cómo encontró la hoja
+(`SPREADSHEET_ID`, `hoja activa` o `hoja madre del script`) y `resultados`, cuántos hay.
 
 > Si el ranking no carga, revisa que el Web App esté en "Cualquiera". El panel se vuelve a
 > mostrar solo si detecta una URL que no responde, para que puedas corregirla.

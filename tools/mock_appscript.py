@@ -1,10 +1,15 @@
 # -*- coding: utf-8 -*-
 """Mock de Google Apps Script para probar la ruta del ranking sin Sheets.
-GET  /exec -> {"ok":true,"top":[...]}   (con CORS)
-POST /exec -> 204                      (el navegador lo ve opaco por no-cors)
+
+    GET  /exec                  -> {"ok":true,"top":[...]}   (con CORS)
+    GET  /exec?accion=ping      -> {"ok":true,"via":"mock",...}
+    POST /exec                  -> 204  (el navegador lo ve opaco por no-cors)
+
+Los nombres llevan HTML a proposito, para comprobar que el sitio lo escapa.
 """
 import json, sys, io, pathlib
 from http.server import BaseHTTPRequestHandler, HTTPServer
+from urllib.parse import urlparse, parse_qs
 
 TOP = [
     {"nombre": "Ana Quispe", "forma": 3, "aciertos": 48, "total": 50, "pct": 96, "fecha": "2026-09-20"},
@@ -26,13 +31,28 @@ class H(BaseHTTPRequestHandler):
         self.end_headers()
 
     def do_GET(self):
-        body = json.dumps({"ok": True, "top": TOP}, ensure_ascii=False).encode("utf-8")
+        q = parse_qs(urlparse(self.path).query)
+        if q.get("accion", [""])[0] == "ping":
+            guardados = len(TOP) + self._posts()
+            body = json.dumps({
+                "ok": True, "hoja": "Resultados", "via": "mock",
+                "hojaExiste": True, "resultados": guardados
+            }, ensure_ascii=False).encode("utf-8")
+        else:
+            body = json.dumps({"ok": True, "top": TOP}, ensure_ascii=False).encode("utf-8")
         self.send_response(200)
         self._cors()
         self.send_header("Content-Type", "application/json; charset=utf-8")
         self.send_header("Content-Length", str(len(body)))
         self.end_headers()
         self.wfile.write(body)
+
+    def _posts(self):
+        f = pathlib.Path(__file__).resolve().parent / "mock_post.txt"
+        try:
+            return len([x for x in f.read_text(encoding="utf-8").splitlines() if x.strip()])
+        except OSError:
+            return 0
 
     def do_POST(self):
         n = int(self.headers.get("Content-Length") or 0)
