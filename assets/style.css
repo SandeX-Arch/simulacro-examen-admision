@@ -1,0 +1,158 @@
+/* Simulacro de Admisión — paleta sobria, sin colores estridentes */
+:root{
+  --bg:#f4f3f0;
+  --surface:#fffefb;
+  --surface-2:#faf9f6;
+  --ink:#3a3a37;
+  --ink-2:#5c5b56;
+  --muted:#8a8880;
+  --line:#e4e1da;
+  --line-2:#d5d1c8;
+  --accent:#5d6d7c;
+  --accent-ink:#41505e;
+  --accent-soft:#e7ebef;
+  --ok:#6b7d64;
+  --ok-soft:#e8eee5;
+  --bad:#9c6a5c;
+  --bad-soft:#f2e8e4;
+  --warn:#8a7440;
+  --r:14px;
+  --sh:0 1px 2px rgba(58,58,55,.05), 0 6px 20px rgba(58,58,55,.05);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font:16px/1.55 "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  padding-bottom:env(safe-area-inset-bottom);
+}
+.wrap{max-width:940px; margin:0 auto; padding:0 16px}
+h1{font-size:1.45rem; margin:0 0 6px; letter-spacing:-.01em}
+h2{font-size:1.12rem; margin:0 0 6px}
+h3{font-size:.98rem; margin:0}
+p{margin:0 0 10px}
+.muted{color:var(--muted)}
+.small{font-size:.84rem}
+b{font-weight:600}
+
+/* ---------- barra superior ---------- */
+.topbar{background:var(--surface); border-bottom:1px solid var(--line); position:sticky; top:0; z-index:20}
+.topbar-in{display:flex; align-items:center; justify-content:space-between; height:58px}
+.brand{display:flex; align-items:center; gap:10px}
+.brand-mark{width:22px; height:22px; border-radius:6px; background:var(--accent); flex:0 0 auto}
+.brand-txt{display:flex; flex-direction:column; line-height:1.2}
+.brand-txt strong{font-size:.98rem}
+.brand-txt small{color:var(--muted); font-size:.76rem}
+
+/* ---------- ranking ---------- */
+.rank{margin-top:18px}
+.rank-head{display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:8px}
+.rank-head h2{font-size:.95rem; letter-spacing:.02em; text-transform:uppercase; color:var(--ink-2); margin:0}
+.pill{font-size:.72rem; padding:2px 9px; border-radius:99px; background:var(--accent-soft); color:var(--accent-ink); white-space:nowrap}
+.pill.off{background:var(--line); color:var(--muted)}
+.rank-body{background:var(--surface); border:1px solid var(--line); border-radius:var(--r); box-shadow:var(--sh); overflow:hidden}
+table.rank-t{width:100%; border-collapse:collapse; font-size:.88rem}
+table.rank-t th{ text-align:left; font-weight:600; font-size:.72rem; text-transform:uppercase;
+  letter-spacing:.05em; color:var(--muted); padding:8px 12px; background:var(--surface-2);
+  border-bottom:1px solid var(--line)}
+table.rank-t td{padding:8px 12px; border-bottom:1px solid var(--line)}
+table.rank-t tr:last-child td{border-bottom:0}
+table.rank-t td.n{width:34px; color:var(--muted); font-variant-numeric:tabular-nums}
+table.rank-t td.p{width:78px; text-align:right; font-variant-numeric:tabular-nums; font-weight:600}
+.rank-note{padding:10px 12px; font-size:.82rem; color:var(--muted)}
+
+/* ---------- tarjetas / vistas ---------- */
+.view{padding:18px 0 8px}
+.card{background:var(--surface); border:1px solid var(--line); border-radius:var(--r);
+  box-shadow:var(--sh); padding:18px; margin-bottom:16px}
+
+/* ---------- selector de formas ---------- */
+.grid-formas{display:grid; grid-template-columns:repeat(auto-fill,minmax(74px,1fr)); gap:8px; margin-top:12px}
+.fbtn{border:1px solid var(--line-2); background:var(--surface-2); color:var(--ink);
+  border-radius:10px; padding:11px 4px; font:inherit; font-weight:600; cursor:pointer; transition:.12s}
+.fbtn:hover{border-color:var(--accent); color:var(--accent-ink)}
+.fbtn[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#fff}
+.elegida{margin:14px 0 10px; font-size:.9rem; color:var(--ink-2)}
+
+/* ---------- campos ---------- */
+.fields{display:grid; gap:12px; margin:12px 0 4px}
+.fields label{display:flex; flex-direction:column; gap:5px; font-size:.84rem; color:var(--ink-2); font-weight:500}
+input{font:inherit; padding:10px 12px; border:1px solid var(--line-2); border-radius:10px;
+  background:var(--surface-2); color:var(--ink); width:100%}
+input:focus{outline:2px solid var(--accent); outline-offset:-1px; background:var(--surface)}
+
+/* ---------- botones ---------- */
+.btn{font:inherit; font-weight:600; border-radius:10px; padding:10px 16px; cursor:pointer;
+  border:1px solid transparent; transition:.12s}
+.btn-primary{background:var(--accent); color:#fff}
+.btn-primary:hover:not(:disabled){background:var(--accent-ink)}
+.btn-ghost{background:var(--surface-2); border-color:var(--line-2); color:var(--ink-2)}
+.btn-ghost:hover{border-color:var(--accent); color:var(--accent-ink)}
+.btn-block{width:100%; margin-top:8px}
+.btn:disabled{opacity:.45; cursor:not-allowed}
+.warn{color:var(--warn); font-size:.86rem; margin:8px 0 0}
+
+/* ---------- examen ---------- */
+.examen-head{display:flex; align-items:center; justify-content:space-between; gap:14px;
+  flex-wrap:wrap; padding:16px 0 4px}
+.prog{display:flex; align-items:center; gap:9px; min-width:180px}
+.prog-bar{flex:1; height:6px; background:var(--line); border-radius:99px; overflow:hidden}
+.prog-bar i{display:block; height:100%; width:0; background:var(--accent); transition:width .2s}
+.q-top{display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:8px}
+.q-num{font-size:.78rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--accent-ink)}
+.tag{font-size:.72rem; color:var(--muted); border:1px solid var(--line); border-radius:99px; padding:2px 9px}
+.q-stem{font-size:1.05rem; line-height:1.5; margin:0 0 16px}
+.opts{display:grid; gap:8px}
+.opt{display:flex; gap:11px; align-items:flex-start; width:100%; text-align:left; font:inherit;
+  background:var(--surface-2); border:1px solid var(--line); border-radius:11px; padding:11px 13px;
+  cursor:pointer; color:var(--ink); transition:.12s}
+.opt:hover{border-color:var(--line-2); background:var(--surface)}
+.opt .k{flex:0 0 24px; height:24px; border-radius:7px; background:var(--line); color:var(--ink-2);
+  display:grid; place-items:center; font-size:.8rem; font-weight:700}
+.opt[aria-pressed="true"]{border-color:var(--accent); background:var(--accent-soft)}
+.opt[aria-pressed="true"] .k{background:var(--accent); color:#fff}
+.q-nav{display:flex; gap:8px; margin-top:16px}
+.q-nav .btn{flex:1}
+
+/* ---------- paleta ---------- */
+.pal-head{display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:10px; flex-wrap:wrap}
+.paleta{display:grid; grid-template-columns:repeat(auto-fill,minmax(38px,1fr)); gap:6px; margin-bottom:12px}
+.pal{border:1px solid var(--line-2); background:var(--surface-2); color:var(--ink-2);
+  border-radius:8px; padding:8px 0; font:inherit; font-size:.82rem; font-weight:600; cursor:pointer; position:relative}
+.pal:hover{border-color:var(--accent)}
+.pal.done{background:var(--ok-soft); border-color:#c3d0bd; color:var(--ok)}
+.pal.mark::after{content:""; position:absolute; top:3px; right:3px; width:6px; height:6px;
+  border-radius:99px; background:var(--warn)}
+.pal.cur{outline:2px solid var(--accent); outline-offset:1px}
+.dot{display:inline-block; width:7px; height:7px; border-radius:99px; margin:0 3px 0 7px; vertical-align:middle}
+.dot-ok{background:var(--ok)} .dot-mark{background:var(--warn)}
+
+/* ---------- resultado ---------- */
+.res-card{text-align:center}
+.score{font-size:3.4rem; font-weight:700; line-height:1; letter-spacing:-.03em; color:var(--accent-ink)}
+.score small{font-size:1.1rem; color:var(--muted); font-weight:600}
+.res-nombre{font-weight:600; margin:8px 0 12px}
+.res-bar{height:8px; background:var(--line); border-radius:99px; overflow:hidden; margin:0 0 10px}
+.res-bar i{display:block; height:100%; width:0; background:var(--accent)}
+.temas{display:grid; gap:7px; margin:16px 0 4px; text-align:left}
+.tema{display:grid; grid-template-columns:1fr 74px 62px; align-items:center; gap:9px; font-size:.84rem}
+.tema .tb{height:6px; background:var(--line); border-radius:99px; overflow:hidden}
+.tema .tb i{display:block; height:100%; background:var(--accent)}
+.tema .tn{text-align:right; color:var(--muted); font-variant-numeric:tabular-nums}
+
+.foot{padding:10px 0 30px}
+
+/* ---------- móvil ---------- */
+@media (max-width:560px){
+  .wrap{padding:0 12px}
+  .card{padding:15px}
+  .score{font-size:2.9rem}
+  .q-nav{flex-wrap:wrap}
+  .q-nav .btn{min-width:44%}
+  .tema{grid-template-columns:1fr 56px 54px; font-size:.8rem}
+  table.rank-t th:nth-child(3), table.rank-t td:nth-child(3){display:none}
+}
+@media print{
+  .topbar,.rank,#viewInicio,.q-nav,.paleta,.foot,#btnEntregar{display:none}
+  body{background:#fff}
+}

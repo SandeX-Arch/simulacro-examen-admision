@@ -1,0 +1,6122 @@
+[
+ {
+  "id": 1,
+  "area": "Humanidades",
+  "topico": "Psicologia",
+  "pregunta": "Cual de los siguientes psicologos es conocido por su teoria de las inteligencias multiples?",
+  "opciones": {
+   "D": "Lev Vygotsky",
+   "B": "Carl Rogers",
+   "C": "Howard Gardner",
+   "E": "Erik Erikson",
+   "A": "Albert Bandura"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 2,
+  "area": "Humanidades",
+  "topico": "Psicologia",
+  "pregunta": "Cual de los siguientes es considerado el padre del psicoanalisis?",
+  "opciones": {
+   "C": "Carl Jung",
+   "D": "John Watson",
+   "A": "Sigmund Freud",
+   "E": "Abraham Maslow",
+   "B": "lvan Pavlov"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 3,
+  "area": "Humanidades",
+  "topico": "Psicologia",
+  "pregunta": "Padre de la Psicologia cientifica es",
+  "opciones": {
+   "E": "Cattell",
+   "A": "Freud",
+   "C": "Jung",
+   "D": "Wundt",
+   "B": "Piaget"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 4,
+  "area": "Humanidades",
+  "topico": "Psicologia",
+  "pregunta": "Es el conjunto de caracteristicas peculiares internas (psiquicas y del comportamiento) relativamente estabies del sujeto, los mismosquenospermitediferenciarnosdelosdemas",
+  "opciones": {
+   "E": "EI Yo",
+   "D": "Rasgos Siquicos",
+   "A": "El caracter",
+   "B": "Lapersonalidad",
+   "C": "Rasgos Geneticos"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 5,
+  "area": "Humanidades",
+  "topico": "Psicologia",
+  "pregunta": "La empatia es un elemento de la inteligencia emocional clasificado dentro del siguiente componente",
+  "opciones": {
+   "E": "ayb",
+   "A": "Interpersonal",
+   "B": "Intrapersonal",
+   "C": "Social",
+   "D": "Emocional"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 7,
+  "area": "Humanidades",
+  "topico": "Psicologia",
+  "pregunta": "Lapsicologia,segun John Watson,solopuedeestudiarla conductaporqueesta",
+  "opciones": {
+   "C": "Es inobservable",
+   "A": "Esigualalaconciencia",
+   "B": "Sepuede imaginar",
+   "D": "Esobservable",
+   "E": "Estafueradelamente"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 8,
+  "area": "Humanidades",
+  "topico": "Psicologia",
+  "pregunta": "Entre las alternativas,el proceso psiquico de mayor complejidad y productividad es",
+  "opciones": {
+   "C": "El pensamiento divergente",
+   "A": "Laatencion",
+   "B": "La imaginacion",
+   "D": "Lapercepcion visual",
+   "E": "Elpensamientoconvergente"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 9,
+  "area": "Humanidades",
+  "topico": "Psicologia",
+  "pregunta": "Es la incapacidadpara reconocer las senales no verbales",
+  "opciones": {
+   "A": "Disemia",
+   "D": "Disartria",
+   "E": "Sincronia",
+   "C": "Disfemia",
+   "B": "Dislexia"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 10,
+  "area": "Humanidades",
+  "topico": "Psicologia",
+  "pregunta": "El tipo de inteligenciamultiplevinculante a la inteligencia social es",
+  "opciones": {
+   "E": "Empatia",
+   "C": "Naturalista",
+   "B": "Emocion a otros",
+   "D": "Interpersonal",
+   "A": "Intrapersonal"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 11,
+  "area": "Humanidades",
+  "topico": "Psicologia",
+  "pregunta": "La Psicologia es una ciencia que estudia",
+  "opciones": {
+   "C": "La mente",
+   "B": "Al hombre",
+   "A": "Elalma",
+   "E": "El comportamientoyprocesosmentales",
+   "D": "Lavidadelaspersonas"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 12,
+  "area": "Humanidades",
+  "topico": "Psicologia",
+  "pregunta": "Escuela Psicologica fundada por Wilhelm Wundt se denomina",
+  "opciones": {
+   "D": "Gestaltica",
+   "E": "Psicoanalista",
+   "C": "Conductista",
+   "B": "Experimentalista",
+   "A": "Estructuralista"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 13,
+  "area": "Humanidades",
+  "topico": "Psicologia",
+  "pregunta": "Sentimientoparecido al miedo,sinque exista una causaidentificable",
+  "opciones": {
+   "D": "Depresion",
+   "E": "Impulsividad",
+   "C": "Ansiedad",
+   "A": "Emocion",
+   "B": "Sensacion"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 14,
+  "area": "Humanidades",
+  "topico": "Psicologia",
+  "pregunta": "Un teoricorepresentativo de la Teoria Psicoanalista",
+  "opciones": {
+   "C": "Sigmund Freud",
+   "E": "Lawrence Kohiberg",
+   "D": "Jean Piaget",
+   "A": "Carl Rogers",
+   "B": "Abraham Maslow"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 15,
+  "area": "Humanidades",
+  "topico": "Psicologia",
+  "pregunta": "es el proceso de registro,de almacenamiento,conservacion y evocacion de la informacion",
+  "opciones": {
+   "B": "El lenguaje",
+   "D": "Lamemoria",
+   "A": "La percepcion",
+   "C": "La atencion",
+   "E": "La concentracion Economia Politica"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 16,
+  "area": "Humanidades",
+  "topico": "Economia Politica",
+  "pregunta": "Segun la divisionde la economia,el estudio delproducto bruto interno corresponde a",
+  "opciones": {
+   "C": "La macroeconomia",
+   "B": "La economia descriptiva",
+   "A": "Lamicroeconomia",
+   "D": "Laeconomia aplicada",
+   "E": "Laspoliticas economicas"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 17,
+  "area": "Humanidades",
+  "topico": "Economia Politica",
+  "pregunta": "El estudio sobre el comportamiento de las unidades de consumo corresponde a la siguiente division de la economia",
+  "opciones": {
+   "E": "Teoria economica",
+   "D": "Politica economica",
+   "A": "Macroeconomia",
+   "B": "Economia cescriptiva",
+   "C": "Microeconomia"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 18,
+  "area": "Humanidades",
+  "topico": "Economia Politica",
+  "pregunta": "Enelproceso de la economia,intervienen",
+  "opciones": {
+   "A": "Lanaturaleza-el hombre-el dinero",
+   "B": "La fuerza-las empresas-el pago",
+   "C": "laproduccion-la oferta-la demanda",
+   "D": "La produccion-la circulacion-el consumo",
+   "E": "Elconsumo-el comprador-elcomerciante"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 19,
+  "area": "Humanidades",
+  "topico": "Economia Politica",
+  "pregunta": "La relacion que existe entre la demanda de bienes y su precio es",
+  "opciones": {
+   "E": "T.A",
+   "D": "Creciente y directa",
+   "B": "Inversa",
+   "C": "Directa",
+   "A": "Creciente"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 20,
+  "area": "Humanidades",
+  "topico": "Economia Politica",
+  "pregunta": "Es la ciencia social que estudia las actividades productivas del hombre para intentar satisfacer necesidades",
+  "opciones": {
+   "E": "Antropologia",
+   "C": "Contabilidad",
+   "D": "Economia",
+   "B": "Sociologia",
+   "A": "Administracion"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 21,
+  "area": "Humanidades",
+  "topico": "Economia Politica",
+  "pregunta": "El pago efectuado a un electricista para realizar instalaciones domiciliarias durante una semana se denomina",
+  "opciones": {
+   "E": "\"b\"y\"c\"",
+   "D": "Haber",
+   "C": "Jornal",
+   "B": "Honorario",
+   "A": "Sueldo"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 22,
+  "area": "Humanidades",
+  "topico": "Economia Politica",
+  "pregunta": "Cual de los siguientes metodos no es utilizado basicamente por la Economia?",
+  "opciones": {
+   "E": "Experimental",
+   "D": "Inductivo",
+   "C": "Matematico",
+   "B": "Dialectico",
+   "A": "Historico"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 23,
+  "area": "Humanidades",
+  "topico": "Economia Politica",
+  "pregunta": "El costo unitario,esla relacion entre",
+  "opciones": {
+   "C": "Costo total/produccion",
+   "B": "Costo total/ventas",
+   "A": "Costopromedio/produccion",
+   "E": "Produccion/costo total",
+   "D": "Costodeproduccion/costo total"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 24,
+  "area": "Humanidades",
+  "topico": "Economia Politica",
+  "pregunta": "Es la renta por persona y se obtiene al dividir la renta nacional entre la poblacion",
+  "opciones": {
+   "E": "Renta neta",
+   "C": "Renta nacional",
+   "D": "Renta total",
+   "A": "Renta regional",
+   "B": "Rentapercapita"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 25,
+  "area": "Humanidades",
+  "topico": "Economia Politica",
+  "pregunta": "Enel Peru la entidad que tiene como funcion,controlar la estabilidad monetaria enel Peru es",
+  "opciones": {
+   "C": "Banco Financiero",
+   "B": "Banco Central de Reservadel Peru",
+   "A": "Banco de la Nacion",
+   "E": "Superintendencia de Banca y Seguros",
+   "D": "Casa de la Moneda"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 26,
+  "area": "Humanidades",
+  "topico": "Economia Politica",
+  "pregunta": "Losmiembrosdel Tribunal Constitucional sonelegidospor",
+  "opciones": {
+   "B": "El Ministerio Publico",
+   "C": "El Congreso Nacional de la Republica",
+   "A": "El Concejo Nacional dela Magistratura",
+   "E": "El Concejo de Ministros",
+   "D": "La Corte Suprema de Justicia"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 27,
+  "area": "Humanidades",
+  "topico": "Economia Politica",
+  "pregunta": "El organismo autonomo del Estado encargado de defender la legalidad y los intereses publicos es : d RJ",
+  "opciones": {
+   "B": "EI Ministerio de la Presidencia",
+   "C": "EI Ministerio Publico",
+   "A": "El Consejo Regional",
+   "E": "El Poder Judicial",
+   "D": "EI Tribunal Constitucional"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 28,
+  "area": "Humanidades",
+  "topico": "Economia Politica",
+  "pregunta": "Cual es el impuesto general a las ventas (IGV) en Peru?",
+  "opciones": {
+   "E": "25",
+   "D": "18",
+   "C": "15",
+   "A": "10",
+   "B": "12"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 29,
+  "area": "Humanidades",
+  "topico": "Economia Politica",
+  "pregunta": "Los edificios y las maquinas constituyen capital",
+  "opciones": {
+   "E": "Rentable",
+   "D": "Fijo",
+   "C": "Permanente",
+   "A": "Variable",
+   "B": "Circulante"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 30,
+  "area": "Humanidades",
+  "topico": "Economia Politica",
+  "pregunta": "La tributacion de impuesto en el Peru escontroladapor la",
+  "opciones": {
+   "D": "SUNARP",
+   "E": "SUNAT",
+   "C": "ONU",
+   "B": "AFP",
+   "A": "ONPE Historia del Peru"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 31,
+  "area": "Humanidades",
+  "topico": "Historia del Peru",
+  "pregunta": "Las alternativas siguientes corresponden al ritual Inca\"Capac Cocha\",excepto",
+  "opciones": {
+   "C": "Llevar prosperidad",
+   "B": "Sanar a los ninos",
+   "A": "Recuperarlasenergias",
+   "E": "Santificar lugares donde estuvieron los ninos",
+   "D": "Sacrificara losninos"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 32,
+  "area": "Humanidades",
+  "topico": "Historia del Peru",
+  "pregunta": "En que ano se produjo la independencia del Peru?",
+  "opciones": {
+   "E": "1912",
+   "D": "1824",
+   "C": "1821",
+   "A": "1810",
+   "B": "1812"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 33,
+  "area": "Humanidades",
+  "topico": "Historia del Peru",
+  "pregunta": "En la organizacion Inca, las funciones paralelas al municipio actual, eran cumplidas por la siguiente autoridad",
+  "opciones": {
+   "E": "Auqui",
+   "D": "Apunchic",
+   "B": "Hunocamayocc Apu",
+   "C": "Curaca",
+   "A": "Panaca"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 34,
+  "area": "Humanidades",
+  "topico": "Historia del Peru",
+  "pregunta": "En la organizacion administrativa Inca, El Curaca de cuantos Ayllus fue jefe?",
+  "opciones": {
+   "E": "Ciento cincuenta",
+   "D": "Mil",
+   "B": "Cien",
+   "C": "Ciento diez",
+   "A": "Diez"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 35,
+  "area": "Humanidades",
+  "topico": "Historia del Peru",
+  "pregunta": "El antropologo Alex Hrdlicka sostiene",
+  "opciones": {
+   "B": "La procedencia melanesica del poblamiento de America",
+   "A": "Laprocedencia asiaticadelpoblamientoamericano",
+   "D": "Fueuncaminoerradoparael doblamiento",
+   "C": "Los australianosllegaron a la Americaporel Polo Sur",
+   "E": "Nohay similitudentre losindiosamericanosy lospobladoresdel Asiaoriental"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 36,
+  "area": "Humanidades",
+  "topico": "Historia del Peru",
+  "pregunta": "En 1926,Jose Carlos Mariategui fund6 una revista dedoctrina,literatura,arte y polemica”titulada",
+  "opciones": {
+   "E": "La Razon",
+   "D": "Claridad",
+   "C": "Amauta",
+   "A": "EI Tiempo",
+   "B": "Nuestra America"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 37,
+  "area": "Humanidades",
+  "topico": "Historia del Peru",
+  "pregunta": "Elpueblo,enel lmperio Inca,estuvosubdivididoen",
+  "opciones": {
+   "C": "Mitimaes_Ingas",
+   "B": "Hatun Runas _Mitimaes -Auquis",
+   "A": "Hatun Runas_Mitimaes_Yanaconas",
+   "E": "Ingas_Pallas _Auquis",
+   "D": "Yanaconas_Palla_Mitmas"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 38,
+  "area": "Humanidades",
+  "topico": "Historia del Peru",
+  "pregunta": "La Ciudad Sagrada del Caral ubicada en el valle del rio Supe (provincia de Barranca) fue descubierta por",
+  "opciones": {
+   "E": "Daniel Lavaile",
+   "C": "Ruth Shady",
+   "A": "Junius Bird",
+   "D": "Josefina Ramos",
+   "B": "Federico Engel"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 39,
+  "area": "Humanidades",
+  "topico": "Historia del Peru",
+  "pregunta": "En el Pre-incanato,la unica cultura ganadera fue",
+  "opciones": {
+   "E": "Tiahuanaco",
+   "D": "Nazca",
+   "A": "Chimu",
+   "C": "Chavin",
+   "B": "Paracas"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 40,
+  "area": "Humanidades",
+  "topico": "Historia del Peru",
+  "pregunta": "El Primer Congreso Constituyente se decidio por un gobierno tipo?",
+  "opciones": {
+   "E": "Monarquico",
+   "D": "Dictatorial",
+   "C": "Protectoral",
+   "B": "Vitalicio",
+   "A": "Republicano"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 41,
+  "area": "Humanidades",
+  "topico": "Historia del Peru",
+  "pregunta": "En que ano llego Francisco Pizarro al territorio del Imperio Inca?",
+  "opciones": {
+   "E": "1607",
+   "D": "1571",
+   "A": "1492",
+   "C": "1532",
+   "B": "1519"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 42,
+  "area": "Humanidades",
+  "topico": "Historia del Peru",
+  "pregunta": "Quien fue el ultimo inca?",
+  "opciones": {
+   "D": "Tupac Amaru",
+   "E": "Pachacutec",
+   "C": "Manco Capac",
+   "A": "Atahualpa",
+   "B": "Huascar"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 43,
+  "area": "Humanidades",
+  "topico": "Historia del Peru",
+  "pregunta": "Las Grandes Unidades Escolares y el Estadio Nacional fueron construidos durante el Gobierno de",
+  "opciones": {
+   "A": "Odria",
+   "B": "Nicolasde Pierola",
+   "D": "Manuel Prado Ugarteche",
+   "E": "Juan Velasco Alvarado",
+   "C": "Manuel"
+  },
+  "respuesta": "A",
+  "q": "miss"
+ },
+ {
+  "id": 47,
+  "area": "Humanidades",
+  "topico": "Historia del Peru",
+  "pregunta": "La tumbade SIPANperteneceala cultura",
+  "opciones": {
+   "E": "Mochica",
+   "A": "Vicu",
+   "C": "Capisnique",
+   "D": "Tallan",
+   "B": "Chimu"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 48,
+  "area": "Humanidades",
+  "topico": "Historia del Peru",
+  "pregunta": "Unade lascaracteristicas dela ceramica Moche fue",
+  "opciones": {
+   "A": "Utilizacionde loscoloresdelarco iris",
+   "B": "La fina representacion del rostro humano",
+   "C": "La representacion demundos imaginarios",
+   "E": "ayd",
+   "D": "Laformarectangulardesusceramicas"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 50,
+  "area": "Humanidades",
+  "topico": "Historia del Peru",
+  "pregunta": "Cual es el maximo organo de la administracion de justicia?",
+  "opciones": {
+   "C": "EI Ministerio Publico",
+   "A": "La Corte Suprema de Justicia",
+   "B": "El tribunal de Garantias Constitucionales",
+   "D": "El Consejo Nacional de la Magistratura",
+   "E": "La Fiscalia dela Nacion Historia Universal"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 51,
+  "area": "Humanidades",
+  "topico": "Historia Universal",
+  "pregunta": "Durante la ll guerra mundial la rendicion de Polonia currio el",
+  "opciones": {
+   "E": "28set1939",
+   "A": "18set 1939",
+   "C": "14 junio 1940",
+   "D": "9 abril 1940",
+   "B": "30 abril1945"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 52,
+  "area": "Humanidades",
+  "topico": "Historia Universal",
+  "pregunta": "El lanzamiento de la bomba atomica al Japon,ocurrio el 6 y 8 de agosto de 1945, y fue ordenado por el Presidente norteamericano",
+  "opciones": {
+   "C": "Churchill",
+   "A": "Roosevelt",
+   "B": "Truman",
+   "D": "Mc Arthur",
+   "E": "Eisenhower"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 53,
+  "area": "Humanidades",
+  "topico": "Historia Universal",
+  "pregunta": "Las“guerras medicas”ocurrieron en la cultura",
+  "opciones": {
+   "E": "Griega",
+   "D": "Asiria",
+   "A": "Persa",
+   "B": "Caldea",
+   "C": "Fenicia"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 54,
+  "area": "Humanidades",
+  "topico": "Historia Universal",
+  "pregunta": "En la Segunda Guerra Mundial,se lanzo la primera Bomba Atomica sobre",
+  "opciones": {
+   "E": "Tokio",
+   "A": "Yokohama",
+   "B": "Hiraoka",
+   "D": "Hirosnima",
+   "C": "Kioto"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 55,
+  "area": "Humanidades",
+  "topico": "Historia Universal",
+  "pregunta": "Lider de la Revolucion Cubana y ex gobernante de Cuba",
+  "opciones": {
+   "B": "Fidel Castro",
+   "D": "Ermesto Guevara",
+   "E": "Celia Sanchez",
+   "A": "Jose Marti",
+   "C": "Raul Castro"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 56,
+  "area": "Humanidades",
+  "topico": "Historia Universal",
+  "pregunta": "& Con que principal practica estan relacionados las pinturas rupestres del hombre primitivo en las cavernas?",
+  "opciones": {
+   "A": "Ganaderia",
+   "E": "Comercio",
+   "B": "Caza",
+   "D": "Pesca",
+   "C": "Agricultura"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 57,
+  "area": "Humanidades",
+  "topico": "Historia Universal",
+  "pregunta": "i Cual de los siguientes paises fue el primero en enviar un ser humano al espacio?",
+  "opciones": {
+   "A": "Estados Unidos",
+   "C": "Rusia (anteriormente Union Sovietica",
+   "B": "China",
+   "D": "Francia",
+   "E": "Ucrania"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 58,
+  "area": "Humanidades",
+  "topico": "Historia Universal",
+  "pregunta": "Cual de las siguientes batallas fue un punto de inflexion durante la Segunda Guerra Mundial y marco la derrota de Alemania? ·",
+  "opciones": {
+   "A": "Batalla de Stalingrado",
+   "B": "Batalla de Midway",
+   "C": "Batalla de Normandia",
+   "D": "Batallade Ei Alamein",
+   "E": "Batalla de Arica"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 60,
+  "area": "Humanidades",
+  "topico": "Historia Universal",
+  "pregunta": "Cual fue la antigua civilizacion que se desarrollo en el valle del rio Nilo?",
+  "opciones": {
+   "E": "India",
+   "D": "China",
+   "A": "Roma",
+   "B": "Grecia",
+   "C": "Egipto"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 61,
+  "area": "Humanidades",
+  "topico": "Historia Universal",
+  "pregunta": "Cual fue el lider militar y politico de Alemania durante la Segunda Guerra Mundial?",
+  "opciones": {
+   "E": "Adolfo Hitler",
+   "D": "Hirohito",
+   "A": "Joseph Stalin",
+   "B": "Benito Mussolini",
+   "C": "Alfonso Hitler"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 62,
+  "area": "Humanidades",
+  "topico": "Historia Universal",
+  "pregunta": "Cual fue el tratado que puso fin a la Prinera Guerra Mundial en 1919?",
+  "opciones": {
+   "C": "Tratado de Yalta",
+   "A": "Tratadode Tordesillas",
+   "B": "Tratado de Versalles",
+   "D": "Tratado de Viena Respuesta",
+   "E": "Tratadode Ancon"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 63,
+  "area": "Humanidades",
+  "topico": "Historia Universal",
+  "pregunta": "Cual fue el lider politico y revolucionario de Cuba que derroco al dictador Fulgencio Batista en 1959?",
+  "opciones": {
+   "E": "Raul Castro",
+   "B": "Che Guevara",
+   "A": "Fidel Castro",
+   "C": "Hugo Chavez",
+   "D": "Augusto Pinochet"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 64,
+  "area": "Humanidades",
+  "topico": "Historia Universal",
+  "pregunta": "Quien fue el lider de la Revolucion Rusa que establecioel regimen comunista en Rusia?",
+  "opciones": {
+   "E": "Vladimir Putin",
+   "C": "Leon Trotsky",
+   "B": "Joseph Stalin",
+   "A": "Vladimir Lenin",
+   "D": "Nikita Khrushchev"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 65,
+  "area": "Humanidades",
+  "topico": "Historia Universal",
+  "pregunta": "En que ano fue la Revolucion Francesa?",
+  "opciones": {
+   "C": "1879",
+   "E": "1889",
+   "A": "1789",
+   "B": "1779",
+   "D": "1978 m"
+  },
+  "respuesta": "A",
+  "q": "miss"
+ },
+ {
+  "id": 66,
+  "area": "Humanidades",
+  "topico": "Filosofia",
+  "pregunta": "La disciplina filosofica,que tiene como campo de estudio la desaparicion del sery el destino fatal de los objetos es",
+  "opciones": {
+   "E": "Ontologia",
+   "D": "Espatologia",
+   "C": "Teologia",
+   "A": "Teleologia",
+   "B": "Escatologia"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 67,
+  "area": "Humanidades",
+  "topico": "Filosofia",
+  "pregunta": "La herramienta de la epistemologia, que a su vez es disciplina filosofica y tecnica auxiliar de la abstraccion es",
+  "opciones": {
+   "E": "Imagen mental",
+   "D": "Semiotica",
+   "C": "Ontologia",
+   "A": "Logica",
+   "B": "Inferencia"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 68,
+  "area": "Humanidades",
+  "topico": "Filosofia",
+  "pregunta": "El elemento de la investigacion cientifica que trata de dar una respuesta tentativa, anticipatoria y condicional, se denomina",
+  "opciones": {
+   "E": "Problema",
+   "D": "Hipotesis",
+   "B": "Resultados",
+   "C": "Metodologia",
+   "A": "Discusion"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 69,
+  "area": "Humanidades",
+  "topico": "Filosofia",
+  "pregunta": "Quien es el padre de la filosofia?",
+  "opciones": {
+   "E": "Xantipa",
+   "C": "Socrates",
+   "D": "Aristocles",
+   "B": "Platon",
+   "A": "Aristoteles"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 70,
+  "area": "Humanidades",
+  "topico": "Filosofia",
+  "pregunta": "El metodo filosofico presente en todas las ciencias por ser un metodo general de la investigacion cientifica se denomina",
+  "opciones": {
+   "E": "Metaanalisis",
+   "D": "Dialectica",
+   "C": "La epistemologia",
+   "B": "Logica",
+   "A": "Metafisica"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 71,
+  "area": "Humanidades",
+  "topico": "Filosofia",
+  "pregunta": "La imposibilidad de alcanzar un conocimiento objetivo, es una posicion o doctrina flosofica radical denominada",
+  "opciones": {
+   "E": "ayc",
+   "D": "Empirismo",
+   "A": "Realismo",
+   "B": "Dogmatismo",
+   "C": "Escepticismo"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 72,
+  "area": "Humanidades",
+  "topico": "Filosofia",
+  "pregunta": "\"Los chanchos vuelan” esta expresion es una",
+  "opciones": {
+   "D": "Pseudo proposicion",
+   "E": "Inferencia",
+   "C": "Directiva",
+   "A": "Interjeccion",
+   "B": "Proposicion"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 73,
+  "area": "Humanidades",
+  "topico": "Filosofia",
+  "pregunta": "Etimologicamente la filosofia se define como",
+  "opciones": {
+   "E": "Especulacionreal",
+   "C": "Herramienta fundamental",
+   "D": "Concientizadora",
+   "B": "Amor al saber",
+   "A": "Cosmovision"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 76,
+  "area": "Humanidades",
+  "topico": "Etica y Civica",
+  "pregunta": "El valor vinculado a la constancia, entereza y tenacidad para alcanzar una profesion es",
+  "opciones": {
+   "E": "La paciencia",
+   "D": "Laperseverancia",
+   "A": "Laresponsabilidad",
+   "B": "La solidaridad",
+   "C": "Elrespeto"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 77,
+  "area": "Humanidades",
+  "topico": "Etica y Civica",
+  "pregunta": "La razon practica de la Axiologia es",
+  "opciones": {
+   "E": "La Gnoseologia",
+   "A": "Los deberes",
+   "C": "La Deontologia",
+   "D": "Los valores",
+   "B": "La Ontologia"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 78,
+  "area": "Humanidades",
+  "topico": "Etica y Civica",
+  "pregunta": "Es unvalor hedonistico",
+  "opciones": {
+   "E": "La salud",
+   "D": "EIhonor",
+   "A": "Labelleza",
+   "C": "El placer",
+   "B": "La sinceridad"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 79,
+  "area": "Humanidades",
+  "topico": "Etica y Civica",
+  "pregunta": "Es uno de losvalores eticos fundamentales que esta ligado al comportamientodecorosoyexcelente",
+  "opciones": {
+   "D": "Dignidad",
+   "E": "Respeto",
+   "A": "Responsabilidad",
+   "C": "Solidaridad",
+   "B": "Sinceridad"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 80,
+  "area": "Humanidades",
+  "topico": "Etica y Civica",
+  "pregunta": "La razon practica de la etica es la",
+  "opciones": {
+   "E": "Axiologia",
+   "A": "Moral",
+   "B": "Ontologia",
+   "D": "Oncologia",
+   "C": "Deontologia"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 81,
+  "area": "Humanidades",
+  "topico": "Etica y Civica",
+  "pregunta": "Se refiere a la estabilidad e inestabilidad y vigencia de losvalores",
+  "opciones": {
+   "A": "Etica",
+   "E": "Axiomatica",
+   "D": "Axiologia",
+   "B": "Deontologia",
+   "C": "Moral"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 82,
+  "area": "Humanidades",
+  "topico": "Etica y Civica",
+  "pregunta": "Cual es el valor fundamental de la democracia?",
+  "opciones": {
+   "E": "Responsabilidad",
+   "A": "Libertad",
+   "D": "Honestidad",
+   "B": "lgualdad",
+   "C": "Justicia"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 83,
+  "area": "Humanidades",
+  "topico": "Etica y Civica",
+  "pregunta": "& Cual de los siguientes valores promueve la justicia y la equidad en una sociedad?",
+  "opciones": {
+   "E": "Igualdad",
+   "A": "Tolerancia",
+   "C": "Libertad",
+   "B": "Solidaridad",
+   "D": "Responsabilidad"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 84,
+  "area": "Humanidades",
+  "topico": "Etica y Civica",
+  "pregunta": "De las alternativas, seniale el organismo vinculado a la ciencia y la tecnologia",
+  "opciones": {
+   "E": "OEA",
+   "A": "MYPE",
+   "D": "CONCYTEC",
+   "B": "UNICEF",
+   "C": "UNESCO"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 85,
+  "area": "Humanidades",
+  "topico": "Etica y Civica",
+  "pregunta": "Cuales son los poderes del estado peruano?",
+  "opciones": {
+   "A": "Gobierno Nacional,Regional y Local",
+   "B": "Ejecutivo, Legislativo, Judicial",
+   "E": "ayc",
+   "D": "byc",
+   "C": "Ejecutivo,Legislativo,Electoral"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 86,
+  "area": "Humanidades",
+  "topico": "Etica y Civica",
+  "pregunta": "La sigla de la Organizacion de las Naciones Unidas para la Agricultura y la Alimentacion es",
+  "opciones": {
+   "C": "FMI",
+   "E": "OMS",
+   "A": "UNICEF",
+   "B": "FAO",
+   "D": "ONUA"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 87,
+  "area": "Humanidades",
+  "topico": "Etica y Civica",
+  "pregunta": "Es una categoria social e historica, donde se da la comunidad idiomatica de territorio, de identidad, de cultura y vida economica",
+  "opciones": {
+   "E": "ayc",
+   "D": "Sociedad",
+   "A": "Nacionalidad",
+   "B": "Nacion",
+   "C": "Patria"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 89,
+  "area": "Humanidades",
+  "topico": "Etica y Civica",
+  "pregunta": "Cuanto tiempo es el periodo presidencial en el Peru?",
+  "opciones": {
+   "D": "5 anos",
+   "E": "4 anos",
+   "B": "7anos",
+   "A": "8anos",
+   "C": "6 anos"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 90,
+  "area": "Humanidades",
+  "topico": "Etica y Civica",
+  "pregunta": "Es unacategoria socialehistorica donde se dalacomunidad idiomatica,deun territorio,de identidad,deculturayvida economica",
+  "opciones": {
+   "E": "Nacion",
+   "A": "Sociedad",
+   "B": "Patria",
+   "D": "Nacionalidad",
+   "C": "Comunidad"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 92,
+  "area": "Humanidades",
+  "topico": "Geografia",
+  "pregunta": "De las alternativas,la region donde se produce la agricultura intensiva de arroz es",
+  "opciones": {
+   "E": "San Martin",
+   "C": "La Libertad",
+   "A": "Cajamarca",
+   "D": "Huanuco",
+   "B": "Lima"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 93,
+  "area": "Humanidades",
+  "topico": "Geografia",
+  "pregunta": "Cual de los siguientes distritos nopertenecen a Leoncio Prado?",
+  "opciones": {
+   "B": "Rupa Rupa",
+   "E": "Daniel",
+   "A": "Robles",
+   "D": "Castillo Grande",
+   "C": "Monzon"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 94,
+  "area": "Humanidades",
+  "topico": "Geografia",
+  "pregunta": "Lasplayas de Mancora se ubican en el departamento de",
+  "opciones": {
+   "E": "Chiclayo",
+   "D": "La Libertad",
+   "C": "Piura",
+   "A": "Tacna",
+   "B": "lca"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 95,
+  "area": "Humanidades",
+  "topico": "Geografia",
+  "pregunta": "La consecuencia de la corriente de“El Nino”es la",
+  "opciones": {
+   "C": "Aridez de la costa",
+   "B": "Presenciadelluviastorrenciales",
+   "A": "Estabilidadatmosferica",
+   "D": "Disminucionde la temperatura",
+   "E": "Ausencia delluvias"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 96,
+  "area": "Humanidades",
+  "topico": "Geografia",
+  "pregunta": "Laciudadde Tingo Mariaseencuentra ubicada en laregionnatural de",
+  "opciones": {
+   "D": "Suni",
+   "E": "Janca",
+   "A": "Chala",
+   "B": "Omagua",
+   "C": "Rupa Rupa"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 97,
+  "area": "Humanidades",
+  "topico": "Geografia",
+  "pregunta": "El Peru esuno de lospaisesmasvulnerables al cambio climatico,debido a su",
+  "opciones": {
+   "A": "Extincion de especies",
+   "B": "Megadiversidad",
+   "C": "Incrementodemografico",
+   "D": "Mal reciclaje debasura",
+   "E": "Incremento de areas agricolas"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 98,
+  "area": "Humanidades",
+  "topico": "Geografia",
+  "pregunta": "El rio Amazonas esta formadopor la confluencia de los rios",
+  "opciones": {
+   "C": "Ucayali-Ene",
+   "A": "Huallaga- Ucayali",
+   "B": "Huallaga-Maranon",
+   "D": "Ucayali-Maranon",
+   "E": "Pacaya-Samiria"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 99,
+  "area": "Humanidades",
+  "topico": "Geografia",
+  "pregunta": "Uno de losprincipales atractivosque seencuentra en el Parque Nacional de Tingo Maria es",
+  "opciones": {
+   "B": "EI Balneario de La Alcantarilla",
+   "A": "Las Aguas Sulfurosas de Jacintillo",
+   "E": "Las Cataratas de Santa Carmen",
+   "C": "Las Cuevasde Las Pavas",
+   "D": "La Cuevade Las Lechuzas"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 100,
+  "area": "Humanidades",
+  "topico": "Geografia",
+  "pregunta": "Dosrios nacen en el nudo de Pascoe ingresan a la llanura amazonica.Estos son",
+  "opciones": {
+   "C": "Maranon - Santa",
+   "B": "Maranon-Huallaga",
+   "A": "Huallaga-Pachitea",
+   "E": "N.A",
+   "D": "Pachitea-Perene"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 101,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "De acuerdo al texto,tupierdes si",
+  "opciones": {
+   "A": "Notolerasunafalta",
+   "B": "Tunotolerasloqueotrosnotoleran",
+   "D": "Notolerasfaltasenlosdemas",
+   "C": "Tolerasuna falta",
+   "E": "Tolerasunafaltatuya"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 102,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Nosemenciona eneltexto",
+  "opciones": {
+   "A": "No toleresunafalta tuya",
+   "B": "Elexitoestaentodoloquehaces",
+   "D": "Acostumbrate a exigirmucho deti",
+   "C": "Exigiresnecesarioparael é xito",
+   "E": "Sinoteexigessolopierdestu"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 103,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Captarfielmente la realidad,constituye",
+  "opciones": {
+   "A": "Unresultadoartificial",
+   "B": "Una situacionexcepcional",
+   "E": "Una ventaja del protagonista",
+   "C": "Unprivilegiodelosfilosofos",
+   "D": "Unhechosobrenatural"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 104,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Podemos afirmar que generalmente un astronomo",
+  "opciones": {
+   "A": "Tienemayoresventajasdepercepcion ultra sensorial",
+   "B": "Tienemayorcapacidad auditivaque el hombre comun",
+   "C": "No logra un conocimiento objetivo de los astros",
+   "D": "Nunca alcanzaraunconocimientoabsolutodesimismo",
+   "E": "Tieneunavisionnoaproximadadelarealidad"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 105,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Lasdiferentesdefinicionessobreunmismoobjetosedebena",
+  "opciones": {
+   "A": "Ladiversidaddesuscualidadesquepresentandichoobjeto",
+   "B": "Laposibilidaddepenetrarensuesencia",
+   "C": "La inexistencia fisicadeestos",
+   "D": "El caracterdiversodelapercepcionhumana",
+   "E": "La.complejidad de los elementos que lo componen"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 106,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "En el texto : “El hombre es la medida de todas las cosas\".Equivale decir que",
+  "opciones": {
+   "A": "Lascosassedefinenenfunciondelapercepcionindividual",
+   "B": "Losobjetosdebenservistosporelhombredemaneraexacta",
+   "C": "Cadapersonareproducelascosassinel consensodelosdemas",
+   "D": "Para cada persona existe una cosa diferente a la que conoce",
+   "E": "No siempre esposible tener una idea aproximada de las cosas. g"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 107,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Antistenes sosteniaque el matrimonio no era",
+  "opciones": {
+   "E": "Tradicional",
+   "A": "Social",
+   "D": "Cohesionante",
+   "C": "Imprescindible",
+   "B": "Consistente"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 108,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Lograrel dominiodelasabiduriasuponefundamentalmente",
+  "opciones": {
+   "A": "Combatirlasleyesescritas",
+   "B": "Fusionarlavirtudconlapolitica",
+   "C": "Poseerun cumulodeconocimientos",
+   "D": "Moderarla conductaenfunciona lasleyes",
+   "E": "Orientarsesobrelabasedeprincipiosmorales"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 109,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Enel fragmento serecomienda que el sabio",
+  "opciones": {
+   "A": "Debeabstenersedelaprocreacion",
+   "B": "Estaimposibilitadodecasarse",
+   "C": "Debesercautofrentea lavirtud",
+   "D": "Debemostrarpredileccionporelamor",
+   "E": "Nodebedesentendersedelapolitica"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 110,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "La ironia de Antistenes apuntaba a",
+  "opciones": {
+   "B": "Evidenciarsudoctrinasobrelapolitica",
+   "A": "Moralizaralajuventudateniense",
+   "C": "Expresarsudesacuerdoconlademocracia",
+   "D": "Ridiculizarlasactividadesdelosmilitares",
+   "E": "Hacernotarlaincapacidaddelasautoridades"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 111,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Quedisciplinaserelacionaconel contenidodel texto?",
+  "opciones": {
+   "B": "Lasociologiaylapolitic",
+   "A": "educacion",
+   "D": "La é tica, la politica y la filosofia",
+   "E": "La politica,la religionyel derecho",
+   "C": "Lacienciaylafilosofia"
+  },
+  "respuesta": "D",
+  "q": "miss"
+ },
+ {
+  "id": 112,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Dondeencontro Laura el misterioso libro?",
+  "opciones": {
+   "B": "Enlabibliotecadelpueblo",
+   "A": "Enel bosquecercadesucasa",
+   "C": "Enlaescuelade Villa Verde",
+   "E": "Enunatiendadelibrosusados",
+   "D": "Enlacasadesuabuela"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 113,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Quedecia enla cubiertadellibro?",
+  "opciones": {
+   "B": "\"El Secreto de las Criaturas Magicas\"",
+   "A": "\"El Bosque Oscuro y Misterioso\"",
+   "C": "\"La Aventura de Laura en Villa Verde\"",
+   "D": "\"Las Maravillasde la Naturaleza\"",
+   "E": "\"El Secretodelos Bosques Encantados\""
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 114,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Que encontro Laura mientras leia el libro?",
+  "opciones": {
+   "A": "Un mapa del bosque",
+   "B": "Uncuademomagico",
+   "C": "Un tesoroescondido",
+   "E": "Una casa abandonada",
+   "D": "Unportal haciaotromundo"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 115,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Quecaracteristicasteniael libroqueencontro Laura?",
+  "opciones": {
+   "A": "Letras doradasypaginas magicas",
+   "B": "llustracionesdeanimalesdelbosque",
+   "E": "Una contraportada brillante",
+   "C": "Unacubiertaverdeyhojasarrugadas",
+   "D": "Untitulolargoycomplicado"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 116,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Que tipodeninaera Laura?",
+  "opciones": {
+   "A": "Curiosa y aventurera",
+   "B": "Timidayreservada",
+   "C": "Miedosaytemerosa",
+   "D": "Estricta y disciplinada",
+   "E": "Desinteresadayaburrida"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 117,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Queapasionaba a Maria?",
+  "opciones": {
+   "E": "La pintura",
+   "C": "La astronomia",
+   "D": "La musica",
+   "A": "La arqueologia",
+   "B": "La biologia"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 118,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Que observo Maria en el cielo desdesu terraza?",
+  "opciones": {
+   "D": "Un cometa",
+   "E": "Unplanetabrillante",
+   "A": "Un avion",
+   "B": "Un OVNI",
+   "C": "Una estrellafugaz"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 119,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Que confirmaron los expertos despues de investigar?",
+  "opciones": {
+   "B": "Que Maria habia descubierto una nave espacial",
+   "A": "Que Mariahabiavistounaestrella",
+   "D": "Que Maria habia avistadoun asteroide",
+   "C": "Que Mariahabiaencontradouncometa",
+   "E": "Que Mariahabiatomadofotografiasborrosas"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 120,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Comose sintio Maria despues de confirmar su descubrimiento?",
+  "opciones": {
+   "E": "Indiferente",
+   "A": "Triste",
+   "C": "Emocionadayorgullosa",
+   "D": "Enfadada",
+   "B": "Asustada"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 121,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "(l) En unamontana azul habitaba una linda doncella. (ll)Consucantaralegrabael bosque. (lll) Lamentablemente,cada dia losbosquessondepredados. (IV)Susonrisaencantabaalasaves. (V) Las flores deseaban despertar con su melodia",
+  "opciones": {
+   "E": "V",
+   "C": "II",
+   "D": "IV",
+   "A": "1",
+   "B": "Il"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 122,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "(l) Alrededor de la tierra giran muchos satelites utilizados en varias funciones. (Ill)Centrales de comunicacion,estacionesmeteorologicas,etc.;gravitan alrededor de la tierra. (lll Lossatelitessigueunaorbitadevarioskilometrosdelageosfera. (IV)El hombre jamaspensoquepodriasiquieravolara unkilometrodei suelo. (V)Lossatelitespuedendescubrirbancosdepecesenel mar,terrenospetroliferos,etc",
+  "opciones": {
+   "E": "Iv",
+   "C": "II",
+   "A": "Ill",
+   "D": "1",
+   "B": "V"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 123,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "(l) Los mecenas fueron principes renacentistas que apoyaron economicamente a los artistas. (ll I) Los artistas sin recursos solicitan becas a artistas instituciones de difusion cultural. (IV)El creadorenmala situacion economica,todaviaesunarealidad enespecial en lospaisessubdesarrollados (V)Muchasveces lasbecassubsanan los deficits economicos de los artistas",
+  "opciones": {
+   "E": "v",
+   "D": "Iv",
+   "A": "1",
+   "C": "II",
+   "B": "Il"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 125,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "(l) Los acontecimientos mas importantes de la cultura occidental se han gestado junto a rios y mares. (ll)Primero fueron losgrandes rios : Nilo,Tigrisy Eufrates. (lll)Luegofueel mar Mediterraneoymastardeeloceano Atlantico. (IV)Hasta lasegundaguerramundial,Europafueel centrodel mundo (V) Ahora le toca el turno al Pacifico, la cuenca mas grande poblada y rica de los espacios oceanicos",
+  "opciones": {
+   "E": "1",
+   "A": "V",
+   "B": "IV",
+   "D": "II",
+   "C": "II"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 126,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "(l) El tacto noha sido estudiado ampliamente comootros canales de comunicacion. (ll) La comunicaciontactilesprobablemente la formamasprimitivadecomunicacion. (lll)En organismos vivosrudimentarios que carecen de ojos,el tacto le sirve de orientacion. (IV) El tacto es fundamental en las relaciones humanas. (V) En el caso e videntes es importante",
+  "opciones": {
+   "A": "1",
+   "C": "II",
+   "B": "Il",
+   "D": "IV",
+   "E": "V"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 127,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "(l) El shipibo es una lengua que pertenece al grupo denominado Plano Central. (ll) Los shipibos viven actualmente en las margenes del rio Ucayali. (lll) Losshipibos gozande ciertoprestigio sobre todopor la calidad desuceramica. (IV)Muchasmujeresshipibas han aprendido el castellanopara poder vendersus artesanias. (V)Tambien hay poblaciones shipibas en los afluentes del Ucayali",
+  "opciones": {
+   "A": "1",
+   "B": "II",
+   "D": "IV",
+   "C": "II",
+   "E": "V"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 128,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "(l) El Louvre es el celebre museo de Paris. (ll) El mas famosopaseoparisino es el de los campos Eliseos. (lll) Gustave Eiffel construyo en Paris una gran torre de fierro. (IV)Nuestra Senora de Paris es la imponentecatedral de la capital francesa. (V)Paris,capital de Francia es conocida como la ciudad Luz",
+  "opciones": {
+   "A": "1",
+   "B": "Il",
+   "C": "II",
+   "E": "v",
+   "D": "IV"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 129,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "(l) La revolucion industrial fue unperiodo decambios significativosen laproducciony la tecnologia (Ill) Durante este periodo,hubo una transicion de metodos de produccion manuales a maquinaria. (lll) La invencionde lamaquina devaporpor James Watt fueun avance crucial enla revolucion industrial. (IV) Este periodo de transformacion tuvo un gran impacto en la sociedad, especialmente en las condiciones de trabajo. (V)Laurbanizacionaumentoconsiderablementedebidoalamigraciondelaszonasruralesalasciudades",
+  "opciones": {
+   "A": "1",
+   "B": "II",
+   "C": "I",
+   "D": "IV",
+   "E": "v"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 131,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Oracion, lexema,,morfema",
+  "opciones": {
+   "A": "Fonema",
+   "B": "Grafema",
+   "C": "Proposicion",
+   "D": "Morfologia",
+   "E": "Sintaxis"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 132,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Atar, anudar; indiscutible",
+  "opciones": {
+   "A": "Afirmativo",
+   "B": "Obnubilado",
+   "C": "Confuso",
+   "D": "Terrible",
+   "E": "Evidente"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 133,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Rulfo,Bryce,Garcia Marquez,Carpentier",
+  "opciones": {
+   "A": "Perez Galdos",
+   "B": "Ribeyro",
+   "C": "Kafka",
+   "D": "Cela",
+   "E": "Neruda"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 134,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Flaco,debil,enclenque,enteco",
+  "opciones": {
+   "B": "Obeso",
+   "A": "Pusilanime",
+   "D": "Canijo",
+   "C": "Denodado",
+   "E": "Temple"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 135,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Argucia, sutileza, anagaza",
+  "opciones": {
+   "A": "Sofisma",
+   "B": "Latido",
+   "C": "Albedrio",
+   "D": "Mentir",
+   "E": "Ahito"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 136,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Circulo, Cuadrado, Triangulo",
+  "opciones": {
+   "A": "Rombo",
+   "B": "Rectangulo",
+   "C": "Poligono",
+   "D": "Pentagono",
+   "E": "Esfera"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 137,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Oprimir, subyugar, sojuzgar",
+  "opciones": {
+   "A": "Redimir",
+   "B": "Enquistar",
+   "C": "Devenir",
+   "E": "Aherrojar",
+   "D": "Detentar"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 138,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Elja el terminoquedebeexcluirseporalejarsedel camposemantico",
+  "opciones": {
+   "A": "Cenudo",
+   "B": "Hurano",
+   "C": "Intratable",
+   "D": "Hosco",
+   "E": "Enajenado"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 139,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Cual de los siguientes terminosnoformaparte dela serieverbal?",
+  "opciones": {
+   "C": "Acido",
+   "A": "Acerbo",
+   "B": "Meliluo",
+   "D": "Pirrico",
+   "E": "Salado"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 140,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Geologia, tierra;fisica, materia;heraldica, escudo",
+  "opciones": {
+   "A": "filosofia, logica",
+   "C": "numismatica,moneda",
+   "D": "podologia,poder",
+   "B": "psicologia,mente",
+   "E": "sintaxis,forma"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 141,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Labellezaenla mujerescomoel aguda,queni é l quema ni ella corta a quienesno se ocomo la acercan",
+  "opciones": {
+   "D": "Brillo- Navaja",
+   "E": "Veneno-Daga",
+   "A": "Calor- Aguja",
+   "B": "Fuego-Espada",
+   "C": "Incendio-Tijera"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 142,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Despuesde comenzado el de sus propias palabras. se dio cuenta de que estaba confundidopor la",
+  "opciones": {
+   "A": "Dialogo-Fluidez",
+   "B": "Panegirico-Grandeza",
+   "C": "Canto-Abundancia",
+   "E": "Debate-Redundancia",
+   "D": "Espectaculo-Incoherencia"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 143,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "La justicia esla expresionmaterial de la libertad.Es,porconsiguiente,para el algo tan esencial como el aire",
+  "opciones": {
+   "A": "Etico - Purificado",
+   "B": "Politico-Inhalado",
+   "C": "Dogmatico-Inspirable",
+   "D": "Hombre-Respirable",
+   "E": "ldealista-Inagotable"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 144,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Aquel hombre,mas que en la de supalabra,ha creido en la verdad de su ;havividoconformea sus principios",
+  "opciones": {
+   "A": "Verdad-Obra",
+   "C": "Eficacia-Ejemplo",
+   "B": "Exactitud-Investigacion",
+   "D": "Autenticidad-Informacion",
+   "E": "Validez-Fuerza"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 145,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Es una cualidad preciosala rapidezde la que es la,convieneestarprevenidocontrasuefecto inexactitud",
+  "opciones": {
+   "C": "Percepcion -Negativo",
+   "A": "Imaginacion-Censurable",
+   "B": "Intuicion-Mortal",
+   "D": "Sensibilidad-Complementario",
+   "E": "Comprobacion-Contrario"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 146,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Su prosa es correcta,clara y amena,una vez lalecturadeunadesusnovelasesdificil",
+  "opciones": {
+   "B": "Empezado - Obviarla",
+   "A": "Iniciada-Interrumpirla",
+   "C": "Comenzado-Olvidarla",
+   "E": "Captada- Cesarla",
+   "D": "Dada-Dejarla yelfrio"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 147,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "La niebla era,aquellanochequeel autoseestrelloenlacarretera",
+  "opciones": {
+   "C": "impredecible - enorme",
+   "D": "espesa - tenue",
+   "E": "oscuro-menudo",
+   "A": "Blanca-fuerte",
+   "B": "densa-intensa"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 148,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Noeraposible,elefectofue todoslo",
+  "opciones": {
+   "A": "catastrofico-celebraron",
+   "B": "devastador-padecieron",
+   "C": "critico-intentaron",
+   "D": "magico - suponian",
+   "E": "integral-sabian"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 149,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "La. la privacidad mortificoalosfamiliaresquienesdemandaronalpropietariodel semanarioporhaber",
+  "opciones": {
+   "A": "noticia-ofendido",
+   "B": "transmision-transgredido",
+   "C": "informacion-agredido",
+   "E": "publicacion - violado",
+   "D": "explicacion-revelado"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 150,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Socrates fue contemporaneo de los Y demostro la objetividad de la",
+  "opciones": {
+   "A": "Estoicos -religion",
+   "B": "Sofistas - verdad",
+   "C": "Aristotelicos - justicia",
+   "D": "Escolasticos-sabiduria",
+   "E": "Platonicos -virtud"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 151,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Cuandodos culturas sefusionany dan origen a una tercera,a ocurrido unproceso",
+  "opciones": {
+   "E": "Sincretico",
+   "A": "Simbiotico",
+   "B": "De catequizacion",
+   "D": "Depersuasion",
+   "C": "Deinculcacion"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 152,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "En el sabio esunavirtudinnata",
+  "opciones": {
+   "A": "La decision",
+   "D": "La alegria",
+   "B": "La accion",
+   "C": "El olvido",
+   "E": "La curiosidad"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 153,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Es conocer la historiapara poder comprendereinterpretar lossucesos del presente ensu real dimension",
+  "opciones": {
+   "A": "Necesario",
+   "B": "Preferible",
+   "C": "Oportuno",
+   "D": "Logico",
+   "E": "Suficiente"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 154,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "La es una etapa marcada porel interesporel conocimiento del mundo exterior.Este interesnatural ynecesario de todoslosninosse transforma enel gradual proceso de",
+  "opciones": {
+   "C": "socializacion-educacion",
+   "B": "primaria-desarrollo",
+   "A": "ninez-adaptacion",
+   "D": "infancia-aprendizaje",
+   "E": "familiarizacion-maduracion"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 155,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "La promulgacion de leyes que de ese Gobierno elordenamientojuridicoevidencialasoterradaactitud",
+  "opciones": {
+   "A": "promueven-reeleccionista",
+   "B": "contravienen-autoritaria",
+   "C": "injurian-democratica",
+   "D": "perjudican-ejecutiva",
+   "E": "contradicen-legislativa"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 156,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "La rechifla provoco\" \"en el animo de los jugadores visitantes que luego, disminuidos,perdieron",
+  "opciones": {
+   "C": "debil-estropicios",
+   "A": "aparente-efectos",
+   "B": "apabullante-estragos",
+   "D": "unanime-entusiasmo",
+   "E": "sonora-burlas de expresion afable y"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 157,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Su rostrobroncineoesta",
+  "opciones": {
+   "A": "Tenido-colerico",
+   "B": "Contagiado - envidioso",
+   "C": "Banado-sereno",
+   "E": "Contento - penetrante",
+   "D": "Sensible-tecnico entresuautoryloslectores"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 158,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "Lalecturaesunprocesode deuntextoqueesmediode",
+  "opciones": {
+   "A": "Leer-transmision",
+   "B": "Decodificacion-comunicacion",
+   "C": "Intercomunicacion-lectura",
+   "E": "Endecodificacion-ideas",
+   "D": "Abstraccion-pensamiento"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 159,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "La tecnologia ha tenido un impacto significativo en nuestras vidas, especialmente en el ambito de la comunicacion. La popularizaciondelosdispositivosmovilesy lasredessocialesha llevadoa unamayor entrelaspersonas",
+  "opciones": {
+   "D": "pasividad",
+   "E": "decepcion",
+   "B": "competencia",
+   "C": "desvinculacion",
+   "A": "interaccion"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 160,
+  "area": "Razonamiento Verbal",
+  "topico": "Comprension Lectora",
+  "pregunta": "El cambio climatico es un problema global que requiere acciones urgentes. Reducir las emisiones de gases de efecto invernaderoyfomentarelusodeenergiasrenovablessonmedidasclavepara elmedioambiente",
+  "opciones": {
+   "A": "degradar",
+   "E": "subestimar",
+   "D": "empeorar",
+   "B": "preservar",
+   "C": "ignorar"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 161,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Perjuicio»?",
+  "opciones": {
+   "E": "Utilidad",
+   "C": "Ayuda",
+   "B": "Dano",
+   "D": "Acierto",
+   "A": "Ventaja"
+  },
+  "respuesta": "B",
+  "q": "auto"
+ },
+ {
+  "id": 162,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Pintoresco»?",
+  "opciones": {
+   "C": "Pintar",
+   "D": "Apto",
+   "E": "Gracioso",
+   "B": "Despejado",
+   "A": "Sacrificar"
+  },
+  "respuesta": "E",
+  "q": "auto"
+ },
+ {
+  "id": 163,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Exhaustivo»?",
+  "opciones": {
+   "D": "Colmado",
+   "B": "Exacto",
+   "C": "Meticuloso",
+   "E": "Productivo",
+   "A": "Profuso"
+  },
+  "respuesta": "C",
+  "q": "auto"
+ },
+ {
+  "id": 164,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Intrusion»?",
+  "opciones": {
+   "E": "Defenestracion",
+   "B": "Recaudacion",
+   "D": "Usurpacion",
+   "A": "Expropiacion",
+   "C": "Incautacion"
+  },
+  "respuesta": "D",
+  "q": "auto"
+ },
+ {
+  "id": 165,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Vigilia»?",
+  "opciones": {
+   "E": "Objetividad",
+   "C": "Atencion",
+   "B": "Desvelo",
+   "D": "Conciencia",
+   "A": "Vivacidad"
+  },
+  "respuesta": "B",
+  "q": "auto"
+ },
+ {
+  "id": 166,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Socavar»?",
+  "opciones": {
+   "E": "Destruir",
+   "B": "Acabar",
+   "D": "Minar",
+   "C": "Mermar",
+   "A": "Modificar"
+  },
+  "respuesta": "D",
+  "q": "auto"
+ },
+ {
+  "id": 167,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Sacrilegio»?",
+  "opciones": {
+   "C": "Atrevido",
+   "D": "Hereje",
+   "E": "-lncredulo",
+   "A": "Basto",
+   "B": "Irreverente"
+  },
+  "respuesta": "B",
+  "q": "auto"
+ },
+ {
+  "id": 168,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Convicto»?",
+  "opciones": {
+   "C": "Aprisionado",
+   "D": "Acusado",
+   "A": "Culpable",
+   "E": "Convencido",
+   "B": "Abrumado"
+  },
+  "respuesta": "A",
+  "q": "auto"
+ },
+ {
+  "id": 169,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Solemne»?",
+  "opciones": {
+   "E": "Imponente",
+   "B": "Exitoso",
+   "C": "Planificado",
+   "D": "Venturoso",
+   "A": "Enjundioso"
+  },
+  "respuesta": "E",
+  "q": "auto"
+ },
+ {
+  "id": 170,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Uberrimo»?",
+  "opciones": {
+   "E": "Calmo",
+   "B": "Feraz",
+   "C": "Orate",
+   "D": "Montaraz",
+   "A": "Esteril"
+  },
+  "respuesta": "B",
+  "q": "auto"
+ },
+ {
+  "id": 171,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Eremita»?",
+  "opciones": {
+   "D": "Provido",
+   "B": "Solo",
+   "E": "Sevicia",
+   "A": "Alejado",
+   "C": "Anacoreta"
+  },
+  "respuesta": "C",
+  "q": "auto"
+ },
+ {
+  "id": 172,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Famelico»?",
+  "opciones": {
+   "E": "Humedo",
+   "D": "Hambriento",
+   "A": "Flema",
+   "B": "Abochornado",
+   "C": "Inmortal"
+  },
+  "respuesta": "D",
+  "q": "auto"
+ },
+ {
+  "id": 173,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Apocrifo»?",
+  "opciones": {
+   "D": "Escrito",
+   "B": "Leal",
+   "E": "Fabuloso",
+   "C": "Poema",
+   "A": "Antiguo"
+  },
+  "respuesta": "E",
+  "q": "auto"
+ },
+ {
+  "id": 174,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Panfleto»?",
+  "opciones": {
+   "E": "Soltura",
+   "C": "Acto",
+   "D": "Boceto",
+   "A": "Totalidad",
+   "B": "Satira"
+  },
+  "respuesta": "B",
+  "q": "auto"
+ },
+ {
+  "id": 175,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Valiente»?",
+  "opciones": {
+   "E": "Decidido",
+   "B": "Cobarde",
+   "C": "Intrepido",
+   "D": "Temeroso",
+   "A": "Audaz"
+  },
+  "respuesta": "A",
+  "q": "auto"
+ },
+ {
+  "id": 176,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Brillante»?",
+  "opciones": {
+   "E": "Apagado",
+   "D": "Radiante",
+   "A": "Resplandeciente",
+   "B": "Opaco",
+   "C": "Luminoso"
+  },
+  "respuesta": "A",
+  "q": "auto"
+ },
+ {
+  "id": 177,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Serendipia»?",
+  "opciones": {
+   "D": "Suerte",
+   "E": "Hallazgo",
+   "A": "Descubrimiento",
+   "B": "Casualidad",
+   "C": "Coincidencia"
+  },
+  "respuesta": "E",
+  "q": "auto"
+ },
+ {
+  "id": 178,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Magnanimo»?",
+  "opciones": {
+   "C": "Noble",
+   "D": "Grandioso",
+   "A": "Generoso",
+   "E": "Misericordioso",
+   "B": "Indulgente"
+  },
+  "respuesta": "A",
+  "q": "auto"
+ },
+ {
+  "id": 179,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «Efimero»?",
+  "opciones": {
+   "B": "Transitorio",
+   "D": "Temporal",
+   "E": "Fugaz",
+   "A": "Duradero",
+   "C": "Pasajero"
+  },
+  "respuesta": "E",
+  "q": "auto"
+ },
+ {
+  "id": 180,
+  "area": "Razonamiento Verbal",
+  "topico": "Sinonimos",
+  "pregunta": "¿Cuál es el SINÓNIMO de «lleso»?",
+  "opciones": {
+   "E": "Invicto",
+   "B": "Incolume",
+   "A": "Completo",
+   "C": "Inocuo",
+   "D": "Invulnerable"
+  },
+  "respuesta": "B",
+  "q": "auto"
+ },
+ {
+  "id": 181,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Inocuo»?",
+  "opciones": {
+   "E": "Inodoro",
+   "D": "Salubre",
+   "A": "Toxico",
+   "B": "Sedante",
+   "C": "Inofensivo"
+  },
+  "respuesta": "A",
+  "q": "auto"
+ },
+ {
+  "id": 182,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Polucion»?",
+  "opciones": {
+   "E": "Claridad",
+   "B": "Queja",
+   "A": "Contaminacion",
+   "C": "Corrupcion",
+   "D": "Inmundicia"
+  },
+  "respuesta": "E",
+  "q": "auto"
+ },
+ {
+  "id": 183,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Sigilo»?",
+  "opciones": {
+   "B": "Indiscrecion",
+   "C": "Confianza",
+   "D": "Cinismo",
+   "A": "Temeridad",
+   "E": "Parsimonia"
+  },
+  "respuesta": "B",
+  "q": "auto"
+ },
+ {
+  "id": 184,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Objetar»?",
+  "opciones": {
+   "E": "Prohibir",
+   "A": "Estimar",
+   "C": "Calmar",
+   "B": "Admitir",
+   "D": "Contener"
+  },
+  "respuesta": "B",
+  "q": "auto"
+ },
+ {
+  "id": 185,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Vahido»?",
+  "opciones": {
+   "A": "Robustez",
+   "C": "Vigor",
+   "D": "Recuperacion",
+   "B": "Entusiasmo",
+   "E": "Salubridad"
+  },
+  "respuesta": "D",
+  "q": "auto"
+ },
+ {
+  "id": 186,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Efimero»?",
+  "opciones": {
+   "B": "Anoso",
+   "E": "Sempitermo",
+   "A": "Definitivo",
+   "C": "Vigente",
+   "D": "Constante"
+  },
+  "respuesta": "E",
+  "q": "auto"
+ },
+ {
+  "id": 187,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Cisma»?",
+  "opciones": {
+   "E": "Objecion",
+   "C": "Union",
+   "A": "Abismo",
+   "B": "Conjunto",
+   "D": "Impresion"
+  },
+  "respuesta": "C",
+  "q": "auto"
+ },
+ {
+  "id": 188,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Yuxtaponer»?",
+  "opciones": {
+   "E": "Apilar",
+   "B": "Mezclar",
+   "C": "Juntar",
+   "D": "Mover",
+   "A": "Alejar"
+  },
+  "respuesta": "A",
+  "q": "auto"
+ },
+ {
+  "id": 189,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Exodo»?",
+  "opciones": {
+   "A": "Viaje",
+   "B": "Huida",
+   "D": "Expatriacion",
+   "E": "Regreso",
+   "C": "Emigracion"
+  },
+  "respuesta": "E",
+  "q": "auto"
+ },
+ {
+  "id": 190,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Altruismo»?",
+  "opciones": {
+   "A": "Beneficencia",
+   "E": "Filantropia",
+   "B": "Caridad",
+   "D": "Egoismo",
+   "C": "Desprendimiento"
+  },
+  "respuesta": "D",
+  "q": "auto"
+ },
+ {
+  "id": 191,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Indigno»?",
+  "opciones": {
+   "D": "Inmenso",
+   "E": "Valeroso",
+   "B": "Despreciable",
+   "A": "Honorable",
+   "C": "lustroso"
+  },
+  "respuesta": "A",
+  "q": "auto"
+ },
+ {
+  "id": 192,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Amnistia»?",
+  "opciones": {
+   "E": "Declaracion",
+   "D": "Punicion",
+   "A": "Aceptacion",
+   "B": "Vicio",
+   "C": "Gracia"
+  },
+  "respuesta": "D",
+  "q": "auto"
+ },
+ {
+  "id": 193,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Discernir»?",
+  "opciones": {
+   "B": "Cernir",
+   "D": "Oscurecer",
+   "C": "Confundir",
+   "E": "Complicar",
+   "A": "Aclarar"
+  },
+  "respuesta": "C",
+  "q": "auto"
+ },
+ {
+  "id": 194,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Abrupto»?",
+  "opciones": {
+   "A": "Simple",
+   "B": "Llano",
+   "C": "Suave",
+   "D": "Adaptado",
+   "E": "Descargado"
+  },
+  "respuesta": "B",
+  "q": "auto"
+ },
+ {
+  "id": 195,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Implosion»?",
+  "opciones": {
+   "D": "Expulsion",
+   "E": "Explosion",
+   "B": "Restauracion",
+   "C": "Difusion",
+   "A": "Extension"
+  },
+  "respuesta": "E",
+  "q": "auto"
+ },
+ {
+  "id": 196,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Cé libe»?",
+  "opciones": {
+   "A": "Inhumano",
+   "B": "Simple",
+   "C": "Recatado",
+   "E": "Casado",
+   "D": "Descuido"
+  },
+  "respuesta": "E",
+  "q": "auto"
+ },
+ {
+  "id": 197,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Apocrifo»?",
+  "opciones": {
+   "E": "Falso",
+   "B": "Tipico",
+   "C": "Genuino",
+   "D": "Poblado",
+   "A": "Sagrado"
+  },
+  "respuesta": "C",
+  "q": "auto"
+ },
+ {
+  "id": 198,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Ronoso»?",
+  "opciones": {
+   "E": "Lagotero",
+   "B": "Aseado",
+   "C": "Mezquino",
+   "A": "Cicatero",
+   "D": "Poltron"
+  },
+  "respuesta": "B",
+  "q": "auto"
+ },
+ {
+  "id": 199,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Adefesio»?",
+  "opciones": {
+   "E": "Vivas",
+   "C": "Cordura",
+   "A": "Amorfo",
+   "B": "Contumaz",
+   "D": "Pelele"
+  },
+  "respuesta": "C",
+  "q": "auto"
+ },
+ {
+  "id": 200,
+  "area": "Razonamiento Verbal",
+  "topico": "Antonimos",
+  "pregunta": "¿Cuál es el ANTÓNIMO de «Permutar»?",
+  "opciones": {
+   "B": "Anochecer",
+   "A": "Permanecer",
+   "E": "Joparse",
+   "C": "Alterar",
+   "D": "Mover"
+  },
+  "respuesta": "A",
+  "q": "auto"
+ },
+ {
+  "id": 221,
+  "area": "Razonamiento Verbal",
+  "topico": "Terminos Excluidos",
+  "pregunta": "¿Cuál de las siguientes alternativas NO es sinónimo de «Golf»?",
+  "opciones": {
+   "E": "Tenis",
+   "D": "Basquetbol",
+   "C": "Natacion",
+   "A": "Futbol",
+   "B": "Voleibol"
+  },
+  "respuesta": "C",
+  "q": "auto"
+ },
+ {
+  "id": 222,
+  "area": "Razonamiento Verbal",
+  "topico": "Terminos Excluidos",
+  "pregunta": "¿Cuál de las siguientes alternativas NO es sinónimo de «Glacial»?",
+  "opciones": {
+   "D": "Algido",
+   "E": "Helado",
+   "C": "Congelado",
+   "B": "Gé lido",
+   "A": "Frivolo"
+  },
+  "respuesta": "A",
+  "q": "auto"
+ },
+ {
+  "id": 223,
+  "area": "Razonamiento Verbal",
+  "topico": "Terminos Excluidos",
+  "pregunta": "¿Cuál de las siguientes alternativas NO es sinónimo de «Apto»?",
+  "opciones": {
+   "E": "Diestro",
+   "D": "Competente",
+   "C": "Preparado",
+   "B": "Idoneo",
+   "A": "Insigne"
+  },
+  "respuesta": "B",
+  "q": "auto"
+ },
+ {
+  "id": 224,
+  "area": "Razonamiento Verbal",
+  "topico": "Terminos Excluidos",
+  "pregunta": "¿Cuál de las siguientes alternativas NO es sinónimo de «Atrevido»?",
+  "opciones": {
+   "E": "Valeroso",
+   "D": "Progresista",
+   "C": "Intre é pido",
+   "B": "Arriscado",
+   "A": "Resuelto"
+  },
+  "respuesta": "D",
+  "q": "auto"
+ },
+ {
+  "id": 225,
+  "area": "Razonamiento Verbal",
+  "topico": "Terminos Excluidos",
+  "pregunta": "¿Cuál de las siguientes alternativas NO es sinónimo de «Bohio»?",
+  "opciones": {
+   "E": "Choza",
+   "D": "Chalet",
+   "C": "Casa",
+   "B": "Cabana",
+   "A": "Habitacion"
+  },
+  "respuesta": "A",
+  "q": "auto"
+ },
+ {
+  "id": 226,
+  "area": "Razonamiento Verbal",
+  "topico": "Terminos Excluidos",
+  "pregunta": "¿Cuál de las siguientes alternativas NO es sinónimo de «Seguro»?",
+  "opciones": {
+   "D": "Versatil",
+   "C": "Voluble",
+   "E": "Inconstante",
+   "B": "Tornadizo",
+   "A": "Pertinaz"
+  },
+  "respuesta": "A",
+  "q": "auto"
+ },
+ {
+  "id": 227,
+  "area": "Razonamiento Verbal",
+  "topico": "Terminos Excluidos",
+  "pregunta": "¿Cuál de las siguientes alternativas NO es sinónimo de «Resistente»?",
+  "opciones": {
+   "E": "Docil",
+   "D": "Maleable",
+   "C": "Pernicioso",
+   "B": "Suave",
+   "A": "Flexible"
+  },
+  "respuesta": "C",
+  "q": "auto"
+ },
+ {
+  "id": 228,
+  "area": "Razonamiento Verbal",
+  "topico": "Terminos Excluidos",
+  "pregunta": "¿Cuál de las siguientes alternativas NO es sinónimo de «Conocido»?",
+  "opciones": {
+   "E": "Agnostico",
+   "D": "Oscuro",
+   "B": "Ignoto",
+   "C": "Incognito",
+   "A": "Anonimo"
+  },
+  "respuesta": "E",
+  "q": "auto"
+ },
+ {
+  "id": 229,
+  "area": "Razonamiento Verbal",
+  "topico": "Terminos Excluidos",
+  "pregunta": "¿Cuál de las siguientes alternativas NO es sinónimo de «Vivo»?",
+  "opciones": {
+   "E": "Apagado",
+   "C": "Baladro",
+   "D": "Triste",
+   "B": "Aburrido",
+   "A": "Languido"
+  },
+  "respuesta": "C",
+  "q": "auto"
+ },
+ {
+  "id": 230,
+  "area": "Razonamiento Verbal",
+  "topico": "Terminos Excluidos",
+  "pregunta": "¿Cuál de las siguientes alternativas NO es sinónimo de «Fruta»?",
+  "opciones": {
+   "E": "Uva",
+   "D": "Lechuga",
+   "B": "Naranja",
+   "C": "Platano",
+   "A": "Manzana"
+  },
+  "respuesta": "D",
+  "q": "auto"
+ },
+ {
+  "id": 231,
+  "area": "Razonamiento Verbal",
+  "topico": "Terminos Excluidos",
+  "pregunta": "¿Cuál de las siguientes alternativas NO es sinónimo de «Animal»?",
+  "opciones": {
+   "E": "Cebra",
+   "D": "Pajaro",
+   "B": "Gato",
+   "C": "Elefante",
+   "A": "Perro"
+  },
+  "respuesta": "D",
+  "q": "auto"
+ },
+ {
+  "id": 232,
+  "area": "Razonamiento Verbal",
+  "topico": "Terminos Excluidos",
+  "pregunta": "¿Cuál de las siguientes alternativas NO es sinónimo de «Firmeza»?",
+  "opciones": {
+   "E": "Decaimiento",
+   "D": "Volubilidad",
+   "C": "Inestabilidad",
+   "B": "Debilidad",
+   "A": "Solidez"
+  },
+  "respuesta": "A",
+  "q": "auto"
+ },
+ {
+  "id": 233,
+  "area": "Razonamiento Verbal",
+  "topico": "Terminos Excluidos",
+  "pregunta": "¿Cuál de las siguientes alternativas NO es sinónimo de «Altruista»?",
+  "opciones": {
+   "E": "Egoista",
+   "D": "Interesado",
+   "B": "Egolatra",
+   "C": "Gregario",
+   "A": "Personalizada"
+  },
+  "respuesta": "C",
+  "q": "auto"
+ },
+ {
+  "id": 234,
+  "area": "Razonamiento Verbal",
+  "topico": "Terminos Excluidos",
+  "pregunta": "¿Cuál de las siguientes alternativas NO es sinónimo de «Pulcritud»?",
+  "opciones": {
+   "E": "Negligencia",
+   "C": "Abandono",
+   "D": "Dejadez",
+   "B": "Desidia",
+   "A": "Desafecto"
+  },
+  "respuesta": "A",
+  "q": "auto"
+ },
+ {
+  "id": 235,
+  "area": "Razonamiento Verbal",
+  "topico": "Terminos Excluidos",
+  "pregunta": "¿Cuál de las siguientes alternativas NO es sinónimo de «Ciruela»?",
+  "opciones": {
+   "E": "Tomate",
+   "D": "Lima",
+   "B": "Naranja",
+   "C": "Mandarina",
+   "A": "Nispero"
+  },
+  "respuesta": "E",
+  "q": "auto"
+ },
+ {
+  "id": 236,
+  "area": "Razonamiento Verbal",
+  "topico": "Etimologias",
+  "pregunta": "EItermino OPLOTECAsignifica",
+  "opciones": {
+   "C": "Almacen de",
+   "B": "Deposito de balas",
+   "A": "Almacen de armas estatuas",
+   "E": "Almacen de rifles",
+   "D": "Deposito depinturas"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 237,
+  "area": "Razonamiento Verbal",
+  "topico": "Etimologias",
+  "pregunta": "EItermino ACROFILIAsignifica",
+  "opciones": {
+   "C": "Amor a las",
+   "B": "Amor a los aracnidos",
+   "A": "Sirnpatiaporlasaranas alturas",
+   "D": "Amor a encerrarse",
+   "E": "amoral acrobata"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 238,
+  "area": "Razonamiento Verbal",
+  "topico": "Etimologias",
+  "pregunta": "El termino etimologico de“PSICOLOGi A\" significa",
+  "opciones": {
+   "C": "Ciencia de la",
+   "B": "Estudio de lamente y el comportamiento",
+   "A": "Estudio de los animales. vida",
+   "E": "Estudiodelasplantas",
+   "D": "Estudiodelasociedad"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 239,
+  "area": "Razonamiento Verbal",
+  "topico": "Etimologias",
+  "pregunta": "Una de las siguientes alternativas contiene las raices etimologicas de : nino, joven y anciano, respectivamente",
+  "opciones": {
+   "C": "paido - Hermes",
+   "B": "andro - agio - stico",
+   "A": "paido - efebo - geronto geronto",
+   "E": "gine -efebo - andro",
+   "D": "andro - gine - fleb"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 240,
+  "area": "Razonamiento Verbal",
+  "topico": "Etimologias",
+  "pregunta": "Los significadosdelasraices ACUO,XERO,DENDRO,sonrespectivamente",
+  "opciones": {
+   "C": "canal - madera",
+   "B": "pintura-odio-interior",
+   "A": "rio - arido - planta bosque",
+   "E": "agua - seco - arbol",
+   "D": "color-humedad-neurona boa (a"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 242,
+  "area": "Razonamiento Verbal",
+  "topico": "Etimologias",
+  "pregunta": "ONIROMANCIA significa adivinacion a traves de",
+  "opciones": {
+   "E": "Lineas de la mano",
+   "C": "Cartas",
+   "D": "Suenos",
+   "B": "Té",
+   "A": "Caf é"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 243,
+  "area": "Razonamiento Verbal",
+  "topico": "Etimologias",
+  "pregunta": "Significado de : OMNI-AN-EPI",
+  "opciones": {
+   "E": "doble - sin",
+   "D": "con-sin-de",
+   "C": "uno - alla-fuera",
+   "A": "por-a-en",
+   "B": "todo-sin-sobre desde"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 244,
+  "area": "Razonamiento Verbal",
+  "topico": "Etimologias",
+  "pregunta": "Loscolaboradoresde ADMISIONnosufrendeergasofobia.Lapalabra subrayada significa",
+  "opciones": {
+   "E": "Pavora la",
+   "D": "Miedo a lasoledad",
+   "A": "Miedo al fracaso",
+   "B": "Miedo al trabajo",
+   "C": "Miedo al amor. pereza"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 245,
+  "area": "Razonamiento Verbal",
+  "topico": "Etimologias",
+  "pregunta": "Elrechazoalos TRUENOSseconocecomo",
+  "opciones": {
+   "E": "Uxoricida",
+   "C": "Bromatofobia",
+   "D": "Aclufobia",
+   "A": "Brontofobia",
+   "B": "Querofobia"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 246,
+  "area": "Razonamiento Verbal",
+  "topico": "Etimologias",
+  "pregunta": "La ciencia que trata de la clasificacion delas PLANTAS",
+  "opciones": {
+   "E": "Hidrologia",
+   "D": "Taxonomia",
+   "C": "Taxidermia",
+   "B": "Fitologia",
+   "A": "Anatomia"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 247,
+  "area": "Razonamiento Verbal",
+  "topico": "Etimologias",
+  "pregunta": "Pasionporla tristeza oporsufrimientodealguien,se denomina",
+  "opciones": {
+   "C": "Queromania",
+   "E": "Lalomania",
+   "D": "Tanatomania",
+   "A": "lconomania",
+   "B": "Lipemania"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 248,
+  "area": "Razonamiento Verbal",
+  "topico": "Etimologias",
+  "pregunta": "Es la ciencia que se encarga del estudio de los reptiles",
+  "opciones": {
+   "E": "Petrologia",
+   "D": "Herpetologia",
+   "C": "Hierologia",
+   "A": "Angiologia",
+   "B": "Anfibologia"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 249,
+  "area": "Razonamiento Verbal",
+  "topico": "Etimologias",
+  "pregunta": "Lapalabra MISOGINIAestarelacionadocon",
+  "opciones": {
+   "C": "Aversion a la",
+   "B": "Tendencia al sufrimiento",
+   "A": "Sexo debil. mujer",
+   "E": "Origen de la mujer",
+   "D": "Aberraciongenetica"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 250,
+  "area": "Razonamiento Verbal",
+  "topico": "Etimologias",
+  "pregunta": "Marquelarelacionincorrecta",
+  "opciones": {
+   "A": "ADENALGIA : dolordelasglandulas",
+   "B": "NEURALGIA : dolordelospulmones",
+   "C": "OTALGIA : dolordeoidos",
+   "D": "RINALGIA : dolordelanariz",
+   "E": "MIODINIA : dolor de losmusculos"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 266,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "Enla siguiente oracion : Aquellacasaesmia",
+  "opciones": {
+   "A": "Aquella es un determinante demostrativo femenino en singular que indica cercania",
+   "B": "Aquella es un determinante demostrativo femenino en singular que indica distancia media",
+   "C": "Aquellaesundeterminantedemostrativofemeninoensingularqueindicalejania",
+   "D": "Aquella es un determinante femenino posesivo en singular que indica distancia media",
+   "E": "Aquella es un determinante femeninoposesivo en singular que indicacercania"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 267,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "En la siguiente oracion, indique que clase de predicado tiene y cuales son sus nucleos del predicado y del sujeto. Llena depeligrosavanzala trochacarrozable",
+  "opciones": {
+   "B": "Predicadonominal-avanza trocha",
+   "A": "Predicado verbal -peligros-carrozable",
+   "D": "Predicadoverbal-avanza-trocha",
+   "C": "Predicadonominal-peligro-trocha",
+   "E": "Predicado verbal-llena- trocha"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 268,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "Cual esla rama de la gramatica que nos indica que el verbo es el nucleo dela fraseverbal, tambienconocida como predicado?",
+  "opciones": {
+   "E": "Morfologia",
+   "D": "Lexicologia",
+   "A": "Semantica",
+   "C": "Sintaxis",
+   "B": "Etimologia"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 269,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "El elemento que interfiere con el proceso comunicativo obstaculizando la viabilidad del canal que se utiliza en el dialogo, es",
+  "opciones": {
+   "E": "Codigo",
+   "D": "Mensaje",
+   "A": "Receptor",
+   "B": "Referente",
+   "C": "Ruido"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 270,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "Cometio el desproposito de expresarse asi en plena reunion",
+  "opciones": {
+   "D": "Impertinencia",
+   "E": "Rudeza",
+   "B": "Groseria",
+   "C": "Ridiculez",
+   "A": "Inoportuno"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 271,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "Camaradas,tenemos queneutralizar laposible accionbelica antes que sea demasiado tarde",
+  "opciones": {
+   "B": "amigos - inmovilizar - pantalla",
+   "A": "soldados-continuar-combate",
+   "D": "colegas-detener-peleas",
+   "C": "combatientes-anular-lid",
+   "E": "companeros-contrarrestar-guerras"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 272,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "En la copa de un arbol canta su ultima serenata un pobre pajaro herido. & Cual es el sujeto de la oracion anterior?",
+  "opciones": {
+   "B": "En la copa de un arbol",
+   "C": "Suultimaserenata",
+   "A": "Lacopa deunarbol",
+   "E": "Un arbol",
+   "D": "Unpobrepajaro herido"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 273,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "En el analisis sintactico,la oracion que tiene como nucleo a un sustantivo se le denomina",
+  "opciones": {
+   "C": "El sintagma",
+   "B": "El predicadoverbal",
+   "A": "EL Predicativo nominal",
+   "E": "La oracion unimembre",
+   "D": "El predicado nominal"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 274,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "El Objetodirectoenelpredicadoeselelemento",
+  "opciones": {
+   "C": "Unido con un",
+   "B": "Quienrealizalaacciondelverbo",
+   "A": "A quien va el verbo enlace",
+   "E": "Enque recae la accion del verbo",
+   "D": "Con circunstanciales de tiempo lugaretc"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 276,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "Reconozca el enunciado que contiene dos objetos, uno directo y otro indirecto",
+  "opciones": {
+   "C": "Dios nos desubendicion",
+   "B": "Sololohizoportubien",
+   "A": "Trajolapicerosyplumones",
+   "E": "Mishijossonmuytraviesos",
+   "D": "Visitoasusparientes"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 279,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "Marque el sujeto de la oracion en : \"Con bastante sol saldra a pasear tu madre.\"",
+  "opciones": {
+   "E": "a pasear",
+   "D": "tu madre",
+   "A": "con bastante sol",
+   "B": "sol",
+   "C": "pasear"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 280,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "Es correcta",
+  "opciones": {
+   "B": "Toda frase es siempre una oracion",
+   "A": "Lasintaxisestudialaestructuradelapalabra",
+   "D": "Proposicionyoracionsonlomismo",
+   "C": "Unverboporsi solopuedeformarunaoracion",
+   "E": "Todaoracionpresentadosomasproposiciones"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 281,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "Que enunciadono es una oracion?",
+  "opciones": {
+   "C": "Analisis de la Constitucion Politica",
+   "B": "i Qu é haras hoy?",
+   "A": "A ellos se les entrego los libros",
+   "D": "El madruga todos los dias",
+   "E": "Llovio"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 282,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "Cuantas oraciones hay en el texto?. Daniel cruzo los brazos y se puso a tiritar ya una vez le habia pedido los remos pero el otro rehuso con una blasfemia aun no acertaba a explicarse,ademas,por que lohabia escogido a é l es cierto que el Mocho estaba borracho pero habia otros pescadores disponiblescon quienes Janampa tenia mas amistad su tono,por otra parte,habia sidoimperioso cogiendolo del brazo le habia dicho que se irian de madrugada",
+  "opciones": {
+   "E": "8",
+   "D": "7",
+   "B": "5",
+   "A": "6",
+   "C": "4"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 283,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "En los siguientes verbos encliticos : cual esta correctamente escrito?",
+  "opciones": {
+   "E": "hablole",
+   "D": "vioseles",
+   "B": "recibionos",
+   "C": "arrepintiendose",
+   "A": "pidiome"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 284,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "Cual de lassiguientespalabrases incorrecta",
+  "opciones": {
+   "E": "exuberante",
+   "D": "exhuberante",
+   "C": "cajon",
+   "A": "Avion",
+   "B": "bebera"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 285,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "Determine el numero total de palabras esdrujulas en el siguiente texto (se han omitido las tildes) Ausculto la palida noche, se peino el mechon de cabello que le caia por la amplisima frente. En el paramo habia un silencio de siglos\"",
+  "opciones": {
+   "E": "1",
+   "D": "5",
+   "A": "2",
+   "B": "4",
+   "C": "3"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 286,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "Marquelaalternativaquenocontieneunnombreosustantivocolectivo",
+  "opciones": {
+   "E": "jauria",
+   "D": "crisis",
+   "C": "cardumen",
+   "A": "recua",
+   "B": "piara"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 289,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "Sustantivo que puede expresarse solo en plural y no en singular",
+  "opciones": {
+   "D": "club",
+   "E": "alicates",
+   "A": "ajies",
+   "B": "viveres",
+   "C": "reloj"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 290,
+  "area": "Razonamiento Verbal",
+  "topico": "Morfologia y Sintaxis",
+  "pregunta": "Esunadjetivoengradosuperlativo",
+  "opciones": {
+   "B": "Franciscoessimpatiquisimo",
+   "A": "Pedroesmasagilque Juan",
+   "D": "Tu eres tan importante como é l",
+   "E": "Paris es mas conocido que Roma",
+   "C": "Angel es agil y Anibal esta fuerte Conectores Logicos dan la sensacion de que, a traves de ellos,se ve el mundo real"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 291,
+  "area": "Razonamiento Verbal",
+  "topico": "Conectores Logicos",
+  "pregunta": "Losespejosson tremendamente enganosos, enrealidad,essoloun trozodevidrioquenorefleja el mundoensu exacta dimension",
+  "opciones": {
+   "C": "ya que - y",
+   "B": "si bien - mas",
+   "A": "porque - pero",
+   "D": "si - en consecuencia",
+   "E": "dadoque - entonces ayudo"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 292,
+  "area": "Razonamiento Verbal",
+  "topico": "Conectores Logicos",
+  "pregunta": "pongo rey",
+  "opciones": {
+   "C": "Y - y-y",
+   "A": "O - o-es decir",
+   "B": "No - ni-pero",
+   "D": "Pero - y- por",
+   "E": "Pues - 0-aunque"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 293,
+  "area": "Razonamiento Verbal",
+  "topico": "Conectores Logicos",
+  "pregunta": "Susy,no te tome tu bodalo anunciaste ebria. serio",
+  "opciones": {
+   "E": "en - por que",
+   "B": "en - porque",
+   "C": "a - porque",
+   "A": "por - por que",
+   "D": "muy - para que"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 294,
+  "area": "Razonamiento Verbal",
+  "topico": "Conectores Logicos",
+  "pregunta": "El terremoto tuvo una magnitud destruyocasi todalaciudad. 8grados Richter",
+  "opciones": {
+   "A": "de - sin embargo",
+   "B": "hasta - porque",
+   "D": "de - por consiguiente",
+   "E": "hacia - y",
+   "C": "por - poreso pico"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 295,
+  "area": "Razonamiento Verbal",
+  "topico": "Conectores Logicos",
+  "pregunta": "El colibri",
+  "opciones": {
+   "C": "o - y",
+   "E": "como - 0",
+   "A": "y - y",
+   "D": "o - es decir",
+   "B": "es decir - porello"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 297,
+  "area": "Razonamiento Verbal",
+  "topico": "Conectores Logicos",
+  "pregunta": "La reunion es en el ultimo piso de aquel edificio,_ preparate para subir las escaleras_ _elascensorestafuerade servicio",
+  "opciones": {
+   "C": "asi que - puesto",
+   "A": "por tanto - ya que",
+   "B": "mas - cuando",
+   "E": "enconclusion - como",
+   "D": "pero - aunque"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 298,
+  "area": "Razonamiento Verbal",
+  "topico": "Conectores Logicos",
+  "pregunta": ". Las leyes que rigen la naturaleza no han cambiado.... hoy....son leyes fjas",
+  "opciones": {
+   "C": "segun - ya que",
+   "E": "como - porque",
+   "D": "hasta - puesto que",
+   "A": "por - entonces",
+   "B": "de - debidoa que"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 299,
+  "area": "Razonamiento Verbal",
+  "topico": "Conectores Logicos",
+  "pregunta": "Aquelloshermanos estan dispuestos triunfar",
+  "opciones": {
+   "D": "ha - ergo",
+   "E": "ha - entonces",
+   "C": "a - luego",
+   "A": "para - portanto",
+   "B": "a - ni su"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 300,
+  "area": "Razonamiento Verbal",
+  "topico": "Conectores Logicos",
+  "pregunta": "Elproblemadeladictoradica",
+  "opciones": {
+   "E": "en - contra",
+   "D": "en - con",
+   "C": "por - contra",
+   "B": "adentro - contra",
+   "A": "dentro - para"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 801,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "No es materia",
+  "opciones": {
+   "B": "Aire",
+   "D": "Borrador",
+   "C": "Gasolina",
+   "E": "Alegria",
+   "A": "Gelatina"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 802,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "La Licuacionesel cambiodeestadode",
+  "opciones": {
+   "D": "Solido a gas",
+   "E": "Gas a liquido",
+   "A": "Solido a liquidob",
+   "C": "Liquido a gas",
+   "B": "Liquido a solido"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 803,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "De la siguiente relacion : Petroleo - Hielo - Hierro - Alcohol Acido - Acido Sulfurico - Agua potable - Diamante - Cobre. &Cuantas son sustancias puras simples?",
+  "opciones": {
+   "C": "3",
+   "E": "6",
+   "D": "7",
+   "A": "5",
+   "B": "4"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 804,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Es una sustancia compuesta 0 compuesto",
+  "opciones": {
+   "C": "Co",
+   "E": "C",
+   "A": "O3",
+   "D": "CHOH",
+   "B": "Ni"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 805,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "En una reaccion quimica se emplearon 5 g de reactivo y solo el 80 % se transformo en energia. Determine la energia en ergios",
+  "opciones": {
+   "A": "3.6x1019",
+   "E": "3.6x1020",
+   "B": "36x1021",
+   "C": "36x1019",
+   "D": "3.6x1021"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 806,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "La masa inicial de un cuerpo es de 30√3 3 gramos. Determine su masa (en gramos) cuando el referido cuerpo alcance la mitaddelavelocidadde la luz",
+  "opciones": {
+   "B": "90g",
+   "C": "60g",
+   "D": "120g",
+   "E": "30g",
+   "A": "10g"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 807,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cual sera la masa residual de la reaccion, si 5 g de reactivo sufre una fision nuclear y producen 9x1013 J de energia radiante?",
+  "opciones": {
+   "A": "4 g",
+   "B": "1 g",
+   "D": "2,5 g",
+   "E": "2,9 g",
+   "C": "1,5 g"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 808,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "La masa de un cuerpo es de 12 g. Calcular la masa luego de liberar 36x1013 J de energia",
+  "opciones": {
+   "B": "2 g",
+   "E": "5 g",
+   "A": "1g",
+   "D": "8 g",
+   "C": "3"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 809,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "La masa de un vaso vacio es 274 g. Se mide, con una probeta graduada, 200 ml de aceite de oliva y se vierten en el vaso.Sepesa el vasocon su contenido,obteniendoun valor de 456 g.Cual es la densidad del aceite?Expresala en g/cm3",
+  "opciones": {
+   "A": "0.91",
+   "B": "0.74",
+   "C": "0.12",
+   "D": "0.98",
+   "E": "0.78"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 810,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Un tambor vacio pesa 1,31 kg; lleno de agua de mar, de D= 1,03 g/ml, pesa 2,855 kg; lleno de aceite de oliva pesa 2,69 kg.Cual es la densidad del aceite?",
+  "opciones": {
+   "E": "0.77",
+   "C": "0.84",
+   "A": "0.99",
+   "B": "0.92",
+   "D": "0.82"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 812,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Calcula el volumen de un cuerpo que tiene una densidad 3 kg/m3 y una masa de 12 kg",
+  "opciones": {
+   "E": "4 m3",
+   "C": "26 m3",
+   "A": "36 m3",
+   "B": "16 m3",
+   "D": "6 m3 Estructura Atomica"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 813,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "El numero atomicodeunelementoes15.Hallarel numerodeprotones",
+  "opciones": {
+   "E": "15",
+   "A": "10",
+   "D": "13",
+   "B": "11",
+   "C": "12"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 814,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Si la carga nucleares 23.Cuantos protones hay?",
+  "opciones": {
+   "E": "10",
+   "A": "23",
+   "C": "19",
+   "D": "15",
+   "B": "20"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 815,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Quienes sonlos nucleones fundamentales?",
+  "opciones": {
+   "C": "electrones y neutrinos",
+   "A": "protonesy neutrones",
+   "B": "neutronesyelectrones",
+   "D": "neutrinos y protones",
+   "E": "neutrones y neutrinos"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 816,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cual es la zona de mayor densidad en el atomo?",
+  "opciones": {
+   "C": "El orbital",
+   "A": "Lazonaextranuclear",
+   "B": "Elnucleodelatomo",
+   "E": "El numero cuanticoprincipal",
+   "D": "El nucleodelneutron"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 817,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cuantos neutrones presenta el siguiente atomo : 2x+E 2x",
+  "opciones": {
+   "D": "6",
+   "E": "4",
+   "A": "0",
+   "B": "2",
+   "C": "3"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 818,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "El nucleode un atomoconsta de6protonesy 8neutrones,entonces",
+  "opciones": {
+   "A": "Su numeroatomicoes8",
+   "B": "Su numero masico es 8",
+   "C": "Sunumeroatomicoes14",
+   "D": "Sunumerodeelectroneses14",
+   "E": "Su numero masicoes 14"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 820,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Un atomo tiene 15 electrones en su.envoltura y18neutrones,hallar\"A\"",
+  "opciones": {
+   "D": "30",
+   "E": "16",
+   "A": "48",
+   "B": "46",
+   "C": "33"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 822,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cuantos electrones difusos hay en un atomo de oro (Z =79)?",
+  "opciones": {
+   "E": "35",
+   "A": "25",
+   "D": "32",
+   "C": "30",
+   "B": "29"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 823,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Si unatomo tiene 10 protones,hallar los numeros cuanticos del antepenultimoelectron",
+  "opciones": {
+   "C": "2,-1,-1,-1/2",
+   "E": "2, 2, -1, 1/2",
+   "A": "2,1,-1,1/2",
+   "D": "2, 1, -1,-1/2",
+   "B": "3,1,+1,-1/2"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 825,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "A que grupo de la tabla periodica pertenece un elemento cuyo Z = 23?",
+  "opciones": {
+   "E": "VB",
+   "A": "VA",
+   "C": "IVB",
+   "D": "VIIB",
+   "B": "IIB"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 827,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Completarel siguienteparrafo : ... propuso un ordenamiento de los elementos en funcion creciente a suspesos atomicos, observando que cada octavoelementorepetiaaproximadamentelaspropiedadesdelprimero",
+  "opciones": {
+   "C": "Meyer",
+   "E": "Moseley",
+   "A": "Newlands",
+   "B": "Mendeleiev",
+   "D": "Dobereiner"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 828,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Un elemento tiene 45 neutrones y esta ubicado en el cuarto periodo y grupo Vl A, indicar : La familia a que pertenece y la cantidaddenucleonesfundamentales",
+  "opciones": {
+   "C": "Carbonoide; 74",
+   "D": "Nitrogenoides;74",
+   "E": "Familiadel Titanio;74",
+   "A": "Anfigeno; 79",
+   "B": "Boroides; 68"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 829,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Un elemento posee dos isotopos cuyos numeros de masa suman 53 y la semisuma de sus neutrones es",
+  "opciones": {
+   "C": "Periodo : 3 Grupo : Il IA",
+   "A": "Periodo : 4 Grupo : IA",
+   "B": "Periodo : 2 Grupo : IIA",
+   "D": "Periodo : 3Grupo : IVA",
+   "E": "Periodo : 3Grupo : VA"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 831,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "A que periodo y grupo pertenece un elemento que posee 24 nucleones fundamentales, ademas la cantidad de protones y neutronesson iguales",
+  "opciones": {
+   "C": "3er periodo, grupo 12",
+   "B": "3er periodo, grupo 2",
+   "A": "2° periodo, grupo 2",
+   "E": "2° periodo, grupo 4",
+   "D": "3er periodo, grupo 1"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 832,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Respecto a la tablaperiodica actual,senalela proposicion incorrecta",
+  "opciones": {
+   "A": "Loselementosseordenanenfuncionasunumeroatomico",
+   "B": "Tienen7periodos y16grupos",
+   "C": "Loselementosmetalicossonmasabundantesquelosnometalicos",
+   "D": "Deforma clasica,los elementosseordenanen8grupos Ay8grupos B",
+   "E": "Estadesligadadelaconfiguracionelectronica"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 834,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Indiquela ubicaciondeun elemento,siensu atomo la capa Mtienen3electrones masquelacapa L",
+  "opciones": {
+   "C": "4to periodo, grupo IIB",
+   "A": "3er periodo, grupo Il IB",
+   "B": "4to periodo, grupo VB",
+   "E": "3er periodo, grupo VB",
+   "D": "4to periodo, grupo VA g Enlace Quimico"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 835,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Dada la ecuacion : Cl + Cl --->Cl2 La molecula de cloro presenta",
+  "opciones": {
+   "C": "covalentedoblepolar",
+   "A": "covalente triple apolar",
+   "B": "covalentesimpleapolar",
+   "E": "ionico",
+   "D": "metalico"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 836,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Al formarse la molecula de hidrogeno(H2).Podemos indicar que lo correctoes",
+  "opciones": {
+   "B": "quesecumplelaregla del octeto",
+   "A": "quesecumplelaregladeldueto",
+   "D": "que se transfieren los electrones",
+   "C": "que se comparten los electrones",
+   "E": "aycson correctas"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 837,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Si en un enlacequimico se unen los atomos por transferencia deelectronesy tienen una diferencia de electronegatividad mayor que 1,7 El enlace establecido en ellos es",
+  "opciones": {
+   "D": "Covalente polar",
+   "E": "Covalente apolar",
+   "A": "Dativo",
+   "B": "lonico",
+   "C": "Metalico"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 841,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cual es la formula del oxido ferrico?",
+  "opciones": {
+   "E": "Fe O",
+   "C": "Fe3O2",
+   "A": "Fe20",
+   "B": "Fe2O2",
+   "D": "Fe2O3"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 842,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Determinar &Cuantos oxidos son basicos? : Ca OCr OBr2O7 Mn2O3c SOMn2O",
+  "opciones": {
+   "E": "6",
+   "C": "4",
+   "D": "5",
+   "A": "2",
+   "B": "3"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 843,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Indicarel nombre correcto de : B2O3",
+  "opciones": {
+   "A": "Oxido Boroso",
+   "E": "Borato",
+   "B": "Oxido de Berilio",
+   "D": "Anhidrido de Bario",
+   "C": "Anhidrido Borico"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 844,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Seniale la formula del oxido de magnesio",
+  "opciones": {
+   "E": "Mg O",
+   "D": "Mg30",
+   "A": "Mg O2",
+   "C": "Mg20",
+   "B": "Mg O4"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 845,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Indicar el nombre correcto de : Al (OH)3",
+  "opciones": {
+   "A": "Hidroxido dealuminio",
+   "B": "Hidroxidode sodio",
+   "C": "Hidroxido de calcio",
+   "D": "Hidroxidodehierro",
+   "E": "Hidroxido delitio"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 846,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Indicar el nombre correcto de : Cu (OH)2",
+  "opciones": {
+   "A": "Hidroxido de sodio",
+   "B": "Hidroxido cuprico",
+   "C": "Hidroxido de potasio",
+   "E": "Hidroxidodecobre",
+   "D": "Hidroxido deplata"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 847,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Indicar la formula del hidroxido aurico",
+  "opciones": {
+   "D": "Au OH",
+   "B": "A (OH)2",
+   "C": "Au (OH)2",
+   "E": "Co (OH)2",
+   "A": "Au (OH)3"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 849,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Indicar la formula delhidroxidoferrico",
+  "opciones": {
+   "A": "Fe (OH)3",
+   "B": "F (OH)2",
+   "C": "F (OH)3",
+   "D": "Fe OH",
+   "E": "Fe (OH)2"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 850,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Un hidruro metalico se forma por la combinacion de",
+  "opciones": {
+   "B": "Metal+No Metal",
+   "C": "No Metal + Oxigeno",
+   "A": "Metal+Oxigeno",
+   "D": "No Metal +Hidrogeno",
+   "E": "Metal+Hidrogeno"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 851,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Senale la formula del acido clorhidrico",
+  "opciones": {
+   "C": "HCIO2",
+   "E": "HCIO3",
+   "D": "HCI",
+   "B": "HCIO4",
+   "A": "HCIO"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 852,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Indicar el nombre correcto de : Cu(OH)2",
+  "opciones": {
+   "A": "Hidroxidodesodio",
+   "B": "Hidroxidodepotasio",
+   "C": "Hidroxido cuprico",
+   "D": "Hidroxido deplata",
+   "E": "Hidroxido de cobre"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 853,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Indicarel nombre correcto de : B2O3",
+  "opciones": {
+   "E": "Anhidrido de Bario",
+   "A": "Oxido Boroso",
+   "B": "Oxido de Berilio",
+   "D": "Borato",
+   "C": "Anhidrido Borico"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 859,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Hallarlasumadeloscoeficientesdela ecuacionquimica : KCl O3→KCl+O2",
+  "opciones": {
+   "E": "5",
+   "C": "6",
+   "D": "4",
+   "A": "5",
+   "B": "7"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 860,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Hallarel coeficiente del acido clorhidrico : HCl+Na2S→Na Cl+H2S",
+  "opciones": {
+   "D": "2",
+   "E": "1",
+   "A": "5",
+   "C": "3",
+   "B": "4"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 861,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Hallarel coeficiente del acidosulfhidrico : CS2+H2S+Cu→Cu2S+CH4",
+  "opciones": {
+   "E": "5",
+   "D": "4",
+   "C": "3",
+   "B": "2",
+   "A": "1"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 862,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Hallar el coeficiente del cloruro de potasio en la siguiente ecuacion quimica : HCI + KMn O4 → KCl + Mn Cl2 + H2O + Cl2",
+  "opciones": {
+   "E": "5",
+   "D": "8",
+   "C": "16",
+   "A": "2",
+   "B": "4"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 863,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Indicarla sumadeloscoeficientesdela ecuacionquimica K2SO4 +Mn SO4 + Fe2(SO4)3 + H2O KMn O4+Fe SO4+H2SO4",
+  "opciones": {
+   "E": "44",
+   "B": "36",
+   "C": "30",
+   "A": "32",
+   "D": "42"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 864,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Indicarelcoeficientedeldioxidodecarbono K3As O4 + K2SO4 + K2Mn O4+ NO + CO2 As2S3+Mn(NO3)2+K2CO3",
+  "opciones": {
+   "D": "40",
+   "E": "5",
+   "A": "30",
+   "B": "10",
+   "C": "20"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 866,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cual es el peso molecular del Acido Sulfurico (PA S=32",
+  "opciones": {
+   "E": "112",
+   "C": "76",
+   "D": "98",
+   "A": "40",
+   "B": "56"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 867,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cuales el pesomoleculardel Hidroxidode Potasio KOH(PAK=39",
+  "opciones": {
+   "E": "112",
+   "D": "76",
+   "C": "68",
+   "A": "40",
+   "B": "56"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 868,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cual es el peso molecular del Acido Nitrico HNOs (PA N=14)?",
+  "opciones": {
+   "E": "96",
+   "D": "69",
+   "B": "49",
+   "C": "63",
+   "A": "106"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 869,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cual es el peso moleculardel Oxido de Calcio Ca O?(PA Ca=40",
+  "opciones": {
+   "D": "96",
+   "E": "110",
+   "A": "48",
+   "B": "56",
+   "C": "68"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 870,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cual es el peso moleculardel Hidroxido de Calcio Ca(OH)2?(PACa=40",
+  "opciones": {
+   "D": "76",
+   "E": "112",
+   "C": "74",
+   "A": "56",
+   "B": "40"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 871,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cual es el peso molecular del Acido Sulfuroso(PA S=32)?",
+  "opciones": {
+   "E": "80",
+   "A": "94",
+   "D": "82",
+   "C": "84",
+   "B": "86"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 872,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cual es el peso molecular del Oxido de Magnesio Mg O (PA Mg=24",
+  "opciones": {
+   "E": "112",
+   "D": "98",
+   "A": "40",
+   "B": "56",
+   "C": "76"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 873,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "&Cuantos moles de hidroxido de sodio hay en 800 gramos de hidroxido de sodio?",
+  "opciones": {
+   "E": "25",
+   "D": "20",
+   "A": "5",
+   "B": "10",
+   "C": "12"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 874,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "&Cuantos gramos de hidroxido de sodio hay en 4 moles de hidroxido de sodio?",
+  "opciones": {
+   "E": "100",
+   "C": "110",
+   "D": "120",
+   "A": "250",
+   "B": "160"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 875,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cuantos moles de hidroxido de sodio Na OH hay en 200g de hidroxido de sodio? (PA Na=23",
+  "opciones": {
+   "E": "18",
+   "D": "16",
+   "A": "5",
+   "B": "12",
+   "C": "14"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 876,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cuantasmoleculas de agua habra en180 gramos de agua?",
+  "opciones": {
+   "E": "6X1025",
+   "D": "6X1020",
+   "C": "6X1021",
+   "A": "6X1024",
+   "B": "6X1022"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 877,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cual es el peso molecular del Hidroxido de Sodio (Na OH)? (PA Na=23",
+  "opciones": {
+   "E": "112",
+   "D": "76",
+   "C": "68",
+   "A": "56",
+   "B": "40 g"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 878,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cualesnorepresentansoluciones? I. Agua azucarada. Il.Agua y aceite. Ill. Agua de mar. IV. Leche agria",
+  "opciones": {
+   "D": "Il y IV",
+   "E": "ll y IV",
+   "A": "1",
+   "B": "Il",
+   "C": "I y Il"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 879,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "De acuerdo con el tipo de solucion,cual tendra menor cantidad de soluto?",
+  "opciones": {
+   "E": "N.A",
+   "D": "diluida",
+   "B": "concentrada",
+   "C": "saturada",
+   "A": "sobresaturada"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 880,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Quepeso de solutohay en 10 litros de solucion de Na OH 0,1 M?",
+  "opciones": {
+   "E": "40",
+   "D": "20",
+   "A": "5 g",
+   "B": "10",
+   "C": "15"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 881,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cuantas molesde soluto habraen10 litros de solucion 2,7Mde HCl?",
+  "opciones": {
+   "E": "N.A",
+   "A": "0,27",
+   "D": "2,7",
+   "C": "10",
+   "B": "27"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 882,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Determinar la concentracion molar de una solucion que contiene 146g de HCl(M = 36",
+  "opciones": {
+   "B": "0,5",
+   "D": "2",
+   "E": "4",
+   "A": "0,25",
+   "C": "1"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 883,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Hallar la molaridad de una solucion, si 34g de NH3 (M=",
+  "opciones": {
+   "E": "12",
+   "A": "2",
+   "B": "4",
+   "C": "8",
+   "D": "7"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 884,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Quepeso de hidroxido de calcio Ca(OH)2 se tendra en500ml de solucion 0,2M? P.A.(Ca=40,O=16",
+  "opciones": {
+   "A": "4,44 g",
+   "E": "9,73",
+   "D": "8,88",
+   "B": "6.73",
+   "C": "7,4"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 885,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Determinar el numero de equivalentes de soluto presentes en 3 litros de solucion 5N de KOH",
+  "opciones": {
+   "E": "25",
+   "D": "15",
+   "B": "3",
+   "A": "1,3",
+   "C": "5"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 887,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Cual es la normalidad de una solucion que tiene 196 g de H2SO4 en 1000 cm3 de solucion? (S = 32",
+  "opciones": {
+   "B": "3,5",
+   "E": "2,6",
+   "A": "1",
+   "C": "4",
+   "D": "5,3"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 889,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Indicarla cantidaddecarbonossecundariosenel 2-metil-pentano CH3-CH(CH3)-CH2-CH2-CH3",
+  "opciones": {
+   "E": "5",
+   "D": "3",
+   "A": "1",
+   "B": "2",
+   "C": "4"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 891,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Indicar la cantidad de carbonos con hibridacion sp3 en el 2-metil-pentano CH3-CH(CH3)-CH2-CH2-CH3",
+  "opciones": {
+   "D": "5",
+   "E": "6",
+   "C": "4",
+   "B": "3",
+   "A": "1"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 892,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Indicarla cantidad decarbonosprimariosenel 2,3-dimetil-hexano CH3-CH(CH3)-CH(CH3)-CH2-CH2-CH3",
+  "opciones": {
+   "D": "5",
+   "E": "6",
+   "A": "1",
+   "B": "2",
+   "C": "4"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 893,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Indicar la cantidad de carbonos terciarios en el 2,3-dimetil-hexano : CH3-CH(CHs)-CH(CH3)-CH2-CH2-CH3",
+  "opciones": {
+   "A": "5",
+   "D": "2",
+   "B": "4",
+   "C": "3",
+   "E": "1"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 894,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Indicar la cantidad de carbonos cuaternarios en el 2,3-dimetil-hexano CH3-CH(CH3)-CH(CH3)-CH2-CH2-CH3",
+  "opciones": {
+   "E": "5",
+   "B": "1",
+   "A": "0",
+   "C": "3",
+   "D": "4"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 899,
+  "area": "Quimica",
+  "topico": "Quimica",
+  "pregunta": "Indicarla cantidad decarbonos conhibridacionsp²en el 1,3,5-Ciclohexatrieno",
+  "opciones": {
+   "E": "7",
+   "D": "6",
+   "A": "1",
+   "B": "3",
+   "C": "4 (p"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 901,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Indique la alternativa que no es correcta",
+  "opciones": {
+   "A": "Pasteurdescubriolavacunacontralarabia",
+   "B": "Mendel eselpadredela Genetica",
+   "C": "La teoriadelaseleccionnatural fuepropuestapor Charles Darwin",
+   "D": "Elvirusdel VIHfuedescubiertoporlan Wilmut",
+   "E": "Hookecreolapalabracelula"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 902,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Elexperimentode Pasteurdesterrodefinitivamenteala teoria",
+  "opciones": {
+   "D": "Panspermia",
+   "E": "Bioquimica",
+   "C": "Cosmozoica",
+   "A": "Generacion espontanea",
+   "B": "Biogenesis"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 903,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Es considerada como una teoria de origen extraterrestre",
+  "opciones": {
+   "E": "Bioquimica",
+   "D": "Creacionista",
+   "A": "Generacionespontanea",
+   "B": "Biogenesis",
+   "C": "Cosmozoica"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 904,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Indiquela alternativa quenocontenga un tipode reproduccionasexual",
+  "opciones": {
+   "A": "Fragmentacion",
+   "B": "Gemacion",
+   "C": "Esporulacion",
+   "D": "Fision binaria",
+   "E": "Partenogenesis"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 905,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Un individuohermafrodita es aquel que",
+  "opciones": {
+   "C": "No se reproduce",
+   "A": "Tiene ambos sexos",
+   "B": "Tiene un solo sexo",
+   "E": "Llevaacabopartenogenesis",
+   "D": "Sereproduceasexualmente"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 906,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Indiqueeleventorelacionadoconlahomeostasis",
+  "opciones": {
+   "B": "Reproduccion asexual",
+   "C": "Organizacion compleja",
+   "A": "Regulacion de la glucosa sanguinea",
+   "E": "ayb",
+   "D": "Evoluciondelosreptiles"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 907,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "De la siguiente relacion de bioelementos indique el que es primario",
+  "opciones": {
+   "D": "Potasio",
+   "E": "Hierro",
+   "C": "Sodio",
+   "A": "Carbono",
+   "B": "Calcio"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 908,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Esel cationintracelularmasabundante",
+  "opciones": {
+   "D": "Potasio",
+   "E": "Hierro",
+   "C": "Sodio",
+   "A": "Carbono",
+   "B": "Calcio"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 910,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Es un monosacarido que comercialmente se conoce como dextrosa",
+  "opciones": {
+   "D": "Ribosa",
+   "E": "Desoxirribosa",
+   "A": "Fructosa",
+   "B": "Glucosa",
+   "C": "Galactosa"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 911,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Disacarido que se encuentra en las semillas germinadas de cebada y trigo",
+  "opciones": {
+   "E": "Maltosa",
+   "A": "Sacarosa",
+   "C": "Celulosa",
+   "D": "Almidon",
+   "B": "Lactosa"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 912,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "La sacarosa es un disacarido formado por",
+  "opciones": {
+   "C": "Galactosa + glucosa",
+   "B": "Glucosa+fructosa",
+   "A": "Glucosa+glucosa",
+   "D": "Fructosa+fructosa",
+   "E": "Galactosa+galactosa"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 913,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Esunpolisacaridoqueconstituye laparedcelulardelasplantas",
+  "opciones": {
+   "E": "Inulina",
+   "D": "Glucosa",
+   "B": "Celulosa",
+   "C": "Quitina",
+   "A": "Almidon"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 914,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "La quitina es un polisacarido que puede encontrarse en",
+  "opciones": {
+   "C": "Tallo de la cana de azucar",
+   "B": "Semillas germinadas demaiz",
+   "A": "Paredcelulardelasplantas",
+   "D": "Exoesqueletodeinsectos",
+   "E": "Cascaron dehuevo"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 915,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Los enlaces que unen al glicerol y a los acidos grasos en los trigliceridos se denominan",
+  "opciones": {
+   "E": "Amida",
+   "C": "Fosfodiester",
+   "D": "Glucosidicos",
+   "B": "Peptidicos",
+   "A": "Estericos"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 916,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Son los lipidos mas abundantes·de la naturaleza",
+  "opciones": {
+   "D": "Esfingolipidos",
+   "E": "Glucolipidos",
+   "C": "Triglic é ridos",
+   "A": "Esteroides",
+   "B": "Fosfolipidos"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 917,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Sonlipidosquesedisponen enbicapasenlasmembranascelulares",
+  "opciones": {
+   "C": "Colesterol",
+   "D": "Vitaminas liposolubles",
+   "E": "Trigliceridos",
+   "A": "Fosfolipidos",
+   "B": "Glucolipidos"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 918,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "El omega 3 (w",
+  "opciones": {
+   "D": "Acido graso insaturado",
+   "E": "a y d",
+   "A": "Acido graso saturado",
+   "C": "Esteroide",
+   "B": "Monosacarido"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 919,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Sirve deprecursora la vitamina D y a las hormonas sexuales",
+  "opciones": {
+   "E": "ADN",
+   "D": "Trigliceridos",
+   "C": "Colesterol",
+   "A": "Esfingomielina",
+   "B": "Fosfolipidos"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 920,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Lipidos que recubren las plantas evitando su deshidratacion",
+  "opciones": {
+   "E": "Glucolipidos",
+   "D": "Esteroides",
+   "B": "Ceras",
+   "C": "Fosfolipidos",
+   "A": "Acilgliceridos"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 921,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Sonmoleculasconsideradascomocoenzimas",
+  "opciones": {
+   "D": "NADP",
+   "C": "FAD",
+   "A": "ATP",
+   "B": "NAD",
+   "E": "Todasmenos A"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 923,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Sustancia gaseosaque se liberaen la fermentacion alcoholica",
+  "opciones": {
+   "B": "CH4",
+   "D": "CO2",
+   "C": "CO",
+   "E": "Vapor de agua",
+   "A": "NH3"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 924,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "El ciclode Krebsse lleva acabodentrodel organelollamado",
+  "opciones": {
+   "D": "Vacuola",
+   "E": "Peroxisoma",
+   "C": "Lisosoma",
+   "B": "Cloroplasto",
+   "A": "Mitocondria"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 925,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "El ultimo aceptordeloselectronesenlacadenarespiratoria es",
+  "opciones": {
+   "D": "ATP",
+   "E": "NADH2",
+   "C": "Agua",
+   "B": "CO2",
+   "A": "Oxigeno"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 926,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Se encarga de capturar el CO2, durante el ciclo de Calvin en la fotosintesis",
+  "opciones": {
+   "E": "ATP",
+   "D": "Celulosa",
+   "B": "Ribulosa",
+   "C": "Glucosa",
+   "A": "Ribosa"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 927,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "La etapa de la mitosis donde se observa la placa ecuatorial",
+  "opciones": {
+   "E": "Telofase",
+   "D": "Anafase",
+   "A": "Profase",
+   "B": "Prometafase",
+   "C": "Metafase"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 928,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "La generacion del huso acromatico durante la division celular se da por parte de",
+  "opciones": {
+   "E": "Cloroplasto",
+   "D": "Centrosoma",
+   "B": "Aparatode Golgi",
+   "C": "Lisosoma",
+   "A": "Mitocondria"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 930,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "El desplazamiento de los cromosomas hacia los polos de la celula durante la mitosis se da en",
+  "opciones": {
+   "E": "Telofase",
+   "A": "Profase",
+   "D": "Anafase",
+   "B": "Prometafase",
+   "C": "Metafase"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 931,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Plantas usadaspor Mendelen sus experimentos de cruzamiento",
+  "opciones": {
+   "E": "Papa",
+   "D": "Trigo",
+   "C": "Maiz",
+   "B": "Arveja",
+   "A": "Arroz"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 932,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Fragmento de ADN quedeterminauncaracter",
+  "opciones": {
+   "D": "Centromero",
+   "E": "Gen",
+   "C": "Genotipo",
+   "A": "Cinetocoro",
+   "B": "Cromosoma"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 933,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Sonproteinas relacionadas con la contraccionmuscular",
+  "opciones": {
+   "E": "ayc",
+   "D": "ayb",
+   "C": "Miosina",
+   "A": "Actina",
+   "B": "Queratina"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 934,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Proteinaqueseencuentra constituyendolastelaranasy la seda",
+  "opciones": {
+   "E": "Actina",
+   "D": "Colageno",
+   "A": "Queratina",
+   "B": "Fibroina",
+   "C": "Elastina"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 935,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "La estructura superenrrollada de unaproteinasepresenta enestructura",
+  "opciones": {
+   "E": "ayb",
+   "B": "Secundaria",
+   "D": "Cuaternaria",
+   "C": "Terciaria",
+   "A": "Primaria"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 936,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Clase de enzimas que llevan a cabo ruptura de enlaces sin participacion del agua",
+  "opciones": {
+   "E": "Transferasas",
+   "D": "Liasas",
+   "A": "Ligasas",
+   "B": "Hidrolasas",
+   "C": "Oxidorreductasas"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 937,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "El modelo de lahoja de trebol representa a una mol é culade",
+  "opciones": {
+   "D": "ARNt",
+   "E": "ayb",
+   "A": "ADN",
+   "C": "ARNm",
+   "B": "ARNr"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 938,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "La capside delosvirus es de naturaleza",
+  "opciones": {
+   "E": "Nucleotidica",
+   "C": "Glucosidica",
+   "D": "Salina",
+   "A": "Lipidica",
+   "B": "Proteica"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 939,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Es una enfermedad viral dermotropica",
+  "opciones": {
+   "C": "SIDA",
+   "E": "Sarampion",
+   "D": "Leucemia",
+   "B": "Fiebre amarilla",
+   "A": "Dengue"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 940,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Descubridordelavacuna contralaviruelayalavezdelaprimeravacuna",
+  "opciones": {
+   "D": "Koch",
+   "E": "Loeffler",
+   "A": "Jenner",
+   "C": "Darwin",
+   "B": "Pasteur"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 941,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Son bolsas membranosas digestivas que se generan a partir de vesiculas del Aparato de Golgi",
+  "opciones": {
+   "E": "Ribosomas",
+   "A": "Vacuolas",
+   "B": "Glioxisomas",
+   "C": "Peroxisomas",
+   "D": "Lisosomas"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 942,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "La savia bruta y savia elaborada se transportan a traves de tejidosconductores,esta capacidad a quepropiedad del aguasedebe?",
+  "opciones": {
+   "B": "Alta tension superficial",
+   "C": "Bajogradodeionizacion",
+   "A": "Maxima densidada4°℃",
+   "E": "Alto calor especifico",
+   "D": "Capilaridad temperatura corporal, esto es debidoa"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 944,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Es un organismo eucarionte unicelular",
+  "opciones": {
+   "D": "Bacteria",
+   "E": "Hongo",
+   "B": "Virus",
+   "C": "Cianobacterias",
+   "A": "Levadura"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 946,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Es un principio inmediato organico",
+  "opciones": {
+   "A": "Cloruros",
+   "B": "Glucosa",
+   "D": "CO2",
+   "E": "Agua",
+   "C": "Carbonato"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 947,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Contribuyen a mantenerelequilibrioosmotico en lamateria viviente",
+  "opciones": {
+   "A": "Elementosorganogenos",
+   "D": "Enzimas",
+   "E": "Sales minerales",
+   "C": "Proteinas",
+   "B": "Glucidos"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 948,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Siel p H de una solucion aumenta,entonces podemos afirmar que",
+  "opciones": {
+   "A": "Sehacemasacido",
+   "B": "Sevuelve mucho menos basico",
+   "C": "Aumentalaneutralidad",
+   "D": "Aumentalaconcentracionde OH·",
+   "E": "Su p H se aproxima a cero"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 949,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Polisacarido que contienefructosa",
+  "opciones": {
+   "E": "Quitina",
+   "C": "Almidon",
+   "B": "Celulosa",
+   "D": "Glucogeno",
+   "A": "Inulina"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 951,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Proteinamasabundanteenlaclaradelhuevo",
+  "opciones": {
+   "B": "Glucosa",
+   "C": "Queratina",
+   "D": "Glucogeno",
+   "E": "Albumina",
+   "A": "Insulina"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 952,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Envegetales,el polisacaridodereserva es yelestructural es",
+  "opciones": {
+   "B": "Quitina - almidon",
+   "C": "Almidon - quitina",
+   "A": "Quitina-glucogeno",
+   "D": "Almidon-celulosa",
+   "E": "Glucogeno-quitina"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 953,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Son proteinas sintetizadas en los globulos blancos que sirven para combatir agentes patogenos como virus y bacterias",
+  "opciones": {
+   "A": "Antibioticos",
+   "B": "Antigenos",
+   "D": "Vitaminas",
+   "C": "Inmunoglobulinas",
+   "E": "Hemoglobina"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 954,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Es un biocatalizador que participa directamente en la produccion de energia en los seres vivos",
+  "opciones": {
+   "B": "ARN polimerasa",
+   "E": "Maltasa",
+   "A": "Peptidasa",
+   "C": "ATP sintetasa",
+   "D": "Reductasa"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 955,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Es considerado un lipido complejo y que constituyen a las membranas celulares",
+  "opciones": {
+   "E": "Fosfolipidos",
+   "A": "Ceras",
+   "C": "Alcaloides",
+   "B": "Esteroides",
+   "D": "Monogliceridos"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 957,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Respecto al Dogma Central de la Biologia, no corresponde",
+  "opciones": {
+   "A": "Transcripcion",
+   "D": "Replicacion",
+   "E": "Traduccion",
+   "B": "Conjugacion",
+   "C": "Sintesisproteica"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 958,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Tipo de transporte a nivel de la membrana de los leucocitos porel cual puede incorporar sustancias de naturaleza solida",
+  "opciones": {
+   "A": "Pinocitosis",
+   "C": "Transporte pasivo",
+   "B": "Exocitosis",
+   "D": "Endocitosis",
+   "E": "Fagocitosis"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 959,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Sustancia propia de las bacterias que esta presente en la pared celular",
+  "opciones": {
+   "A": "Almidon",
+   "B": "Glucogeno",
+   "D": "Proteina",
+   "E": "Peptidoglucano",
+   "C": "Celulosa"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 960,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Un organismo procarionte se caracterizapor carecer de",
+  "opciones": {
+   "E": "ADN",
+   "B": "Citoplasma",
+   "A": "Plasmalema",
+   "D": "Ribosomas",
+   "C": "Carioteca"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 961,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Mecanismode transporte anivel de lamembranacelularporel cual sedifunden losgases",
+  "opciones": {
+   "A": "Bomba de sodio y potasio",
+   "B": "Exocitosis",
+   "C": "Transporte pasivo",
+   "E": "Pinocitosis",
+   "D": "Endocitosis"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 962,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Unnucleotidoestacompuestopor",
+  "opciones": {
+   "A": "Azucar,grupofosfatoybasenitrogenada",
+   "B": "Azucar,aminoacidoybasenitrogenada",
+   "C": "Azucar,grupo é steryaminoacido",
+   "D": "Azucar,acidograsoybasenitrogenada",
+   "E": "Azucar rubia,acido fosforico y base nitrogenada"
+  },
+  "respuesta": "A",
+  "q": "ok"
+ },
+ {
+  "id": 963,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Cuales son los elementos de la Fotosintesis?",
+  "opciones": {
+   "A": "Faseluminosa,Fotofosforilacion,Fotofosforilacion ciclica",
+   "B": "Fase Oscura,Carboxilacion,Reduccion,Regeneracion",
+   "C": "Luz,Clorofila,Agua,CO2,Transportadores de Electrones,Enzimas",
+   "D": "Luz,Clorofila,CO2,Quimiosintesis,Electricidad,Enzimas",
+   "E": "Ay B"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 964,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "El ADN esta formadopor dos cadenas de desoxirribonucleotidos colocadasparalelamentey se mantienen unidaspor",
+  "opciones": {
+   "A": "Enlaces fosfodiester",
+   "C": "Enlace N-glucosidico",
+   "B": "Enlacesfosfoester",
+   "D": "Enlacesa-helice",
+   "E": "Enlacespuentesdehidrogeno"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 965,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Las particulas de proteinas infecciosas, que pueden producir las enfermedades de las vacas locas es",
+  "opciones": {
+   "A": "Desoxivirus",
+   "B": "Picornavirus",
+   "C": "Flavivirus",
+   "D": "Viroides",
+   "E": "Priones"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 966,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "El proceso de oxidacion parcial de la glucosa en ausencia de oxigeno molecular hasta la formacion de etanol, acido lactico o algun otro intermediario organico, se conoce como",
+  "opciones": {
+   "A": "Glicolisis",
+   "B": "Fermentacion",
+   "D": "Glucosa",
+   "E": "Mitocondria",
+   "C": "Respiracion celular"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 967,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "No corresponde a las Fases de la mitosis",
+  "opciones": {
+   "C": "Interfase",
+   "D": "Profase",
+   "E": "Metafase",
+   "B": "Telofase",
+   "A": "Anafase"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 968,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "La celula animal posee nutricion",
+  "opciones": {
+   "D": "clorofila",
+   "E": "mitocondrias",
+   "C": "glucogeno",
+   "A": "autotrofa",
+   "B": "heterotrofa"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 969,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Cuales son los virus ARN?",
+  "opciones": {
+   "A": "Varicela,Herpes,Conjuntivitis,Papiloma,Hepatitis B",
+   "B": "Distemper,Encefalitis,Viruela,Poliomielitis,Bacteriofags",
+   "C": "Leucemia,Linfocitos,Ebola,Varicela,Bacteriofagos",
+   "D": "Rabia,Influenza,Sarampion,Dengue,VIH,Fiebre Amarilla",
+   "E": "ayb"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 971,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "La taxonomiaesunadisciplinadela Biologiaqueseencarga de",
+  "opciones": {
+   "A": "Descripciondelasestructurasbiologicas",
+   "B": "Clasificaciondelosseresvivos",
+   "C": "Estudiodel desarrolloembrionario",
+   "D": "Estudiodelasleyesdelaherencia",
+   "E": "Descripciondelacomposicionmoleculardelosseresvivos"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 972,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Propusola Teoriadela Panspermia",
+  "opciones": {
+   "E": "Needhan",
+   "D": "Arhenius",
+   "C": "Ritcher",
+   "A": "Oparin",
+   "B": "Redi"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 973,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "El Aparato de Golgi, pertenece al nivel de organizacion de",
+  "opciones": {
+   "D": "Supramolecular",
+   "E": "Organologico",
+   "C": "Celular",
+   "B": "Sistema",
+   "A": "Aparato"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 974,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "La partenogenesis,esta relacionado con",
+  "opciones": {
+   "E": "La reproduccion",
+   "D": "La evolucion",
+   "A": "El origen",
+   "C": "Lahomeostasis",
+   "B": "El crecimiento"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 975,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "La apariciondeloscoacervadosenla tierraprimitiva esdescritapor",
+  "opciones": {
+   "D": "Redi",
+   "E": "Miller",
+   "C": "Oparin",
+   "A": "Richter",
+   "B": "Pasteur"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 976,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Es considerado el “Padre de la Quimica Prebiotica\", ya que comprobo experimentalmente la Teoria de Oparin",
+  "opciones": {
+   "E": "lam Wilmut",
+   "D": "Pasteur",
+   "B": "Van Helmont",
+   "C": "Miller",
+   "A": "Haldane"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 977,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "El Lago Titicaca y el Parque Nacional de Tingo Maria son ejemplos del nivel de organizacion",
+  "opciones": {
+   "E": "Ecosistema",
+   "D": "Poblacion",
+   "C": "Biosfera",
+   "B": "Individuo",
+   "A": "Comunidad"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 978,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Es un proceso anabolico",
+  "opciones": {
+   "E": "byc",
+   "D": "Glucogenolisis",
+   "B": "Sintesis de proteinas",
+   "C": "Fotosintesis",
+   "A": "Glucolisis"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 979,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "El principal producto de la fotosintesis es la glucosa la cual obtiene su fuente de carbono a partir de",
+  "opciones": {
+   "E": "luz solar",
+   "D": "dioxidodecarbono",
+   "C": "azucar",
+   "A": "dioxido de silicio",
+   "B": "agua"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 980,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "La ciudad de Tingo Maria consume agua clorificada,entonces",
+  "opciones": {
+   "C": "aumenta la concentracion de H+",
+   "A": "es de sabor acido",
+   "B": "disminuye su p H",
+   "E": "mantiene su p H = 7",
+   "D": "esligeramentealcalino"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 982,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Lasmoleculas de agua se unen entre si a traves de",
+  "opciones": {
+   "C": "Puentes dehidrogeno",
+   "D": "Enlaces peptidicos",
+   "E": "Enlaces ionicos",
+   "A": "Puentes disulfuro",
+   "B": "Enlacescovalentes"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 983,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Losatomosmasimportantesenlosseresvivos",
+  "opciones": {
+   "B": "Son el oxigeno, hidrogeno y nitrogeno",
+   "A": "Son los que poseen mayor tamano",
+   "D": "Notienenprobabilidaddehibridizaciondeorbitales",
+   "C": "Suelenformarenlacescovalentes",
+   "E": "Suelen formarenlaces ionicos"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 985,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Los elementoscomunes a carbohidratos,proteinasy acidos nucleicos son",
+  "opciones": {
+   "E": "C, H, O",
+   "D": "C, H, O, P",
+   "A": "C, H, O, N",
+   "C": "C,H,O,S",
+   "B": "C,H,O,N,S"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 986,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "El esqueleto de lasmoleculas organicasesta formado de",
+  "opciones": {
+   "E": "P",
+   "D": "S",
+   "C": "C",
+   "A": "H",
+   "B": "O"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 987,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Entre lasfunciones del agua se encuentran",
+  "opciones": {
+   "E": "T.A",
+   "C": "Medio de transporte",
+   "D": "Disolvente",
+   "A": "Termorreguladora",
+   "B": "Termoaislante"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 988,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Fuentes importantes de lipidos insaturados que benefician la salud, son",
+  "opciones": {
+   "C": "Margarina",
+   "A": "Huevoyleche",
+   "B": "Derivadosdelaleche",
+   "E": "Girasol, aceitunas, almendras,coco",
+   "D": "Carnederes,cerdo"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 990,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "EIADNesunamoleculaque",
+  "opciones": {
+   "A": "Participa directamenteenla sintesisproteica,saledel nucleoyes traducidoporel ribosoma",
+   "B": "Solo interviene en la division celular",
+   "C": "Codificaal ARNmperonoel ARNtni,ARNr",
+   "D": "Traduce al ARNm para la sintesis proteica",
+   "E": "Tiene la informacionpara la sintesisproteica,peroel ADNpermaneceenel nucleo"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 991,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "En que parte de la celula se sintetiza el ARN ribosomico?",
+  "opciones": {
+   "A": "Risomas",
+   "B": "Nucl é olo",
+   "C": "Ribosomas",
+   "E": "Cromosoma",
+   "D": "Aparato de Golgi"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ },
+ {
+  "id": 992,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Las macromoleculas mas importantes para los seresvivos son",
+  "opciones": {
+   "C": "C, H, O y N",
+   "A": "Elaguaylassalesminerales",
+   "B": "Elcarbonoyeloxigeno",
+   "D": "Losmineralesyel CO2",
+   "E": "Lasproteinas y los acidos nucleicos"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 994,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Es un aminoacido",
+  "opciones": {
+   "A": "Mielina",
+   "B": "Adenina",
+   "C": "Timina",
+   "D": "Glicina",
+   "E": "Guanina"
+  },
+  "respuesta": "D",
+  "q": "ok"
+ },
+ {
+  "id": 995,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "La siguiente biomolecula NO cumple funcion estructural",
+  "opciones": {
+   "E": "Insulina",
+   "A": "Queratina",
+   "D": "Oseina",
+   "B": "Quitina",
+   "C": "Celulosa"
+  },
+  "respuesta": "E",
+  "q": "ok"
+ },
+ {
+  "id": 996,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Enzimasque catalizanreacciones deruptura de enlaces conparticipacionde agua",
+  "opciones": {
+   "A": "Oxidorreductasas",
+   "B": "Hidrolasas",
+   "D": "Ligasas",
+   "E": "Transferasas",
+   "C": "Liasas"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 997,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Cual es la molecula mas abundante de los seres vivos",
+  "opciones": {
+   "E": "oxigeno",
+   "B": "agua",
+   "D": "cloruro de sodio",
+   "A": "celulosa",
+   "C": "proteinas"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 999,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Es una estructura que no se encuentra en celulas vegetales",
+  "opciones": {
+   "E": "Mitocondria",
+   "A": "Aparato de Golgi",
+   "B": "Lisosoma",
+   "D": "Pared celular",
+   "C": "Cloroplasto"
+  },
+  "respuesta": "B",
+  "q": "ok"
+ },
+ {
+  "id": 1000,
+  "area": "Biologia",
+  "topico": "Biologia",
+  "pregunta": "Elementos que se encuentran en mayor porcentaje en peso en la materia viva",
+  "opciones": {
+   "E": "Silicio",
+   "A": "Carbono",
+   "B": "Hidrogeno",
+   "D": "Nitrogeno",
+   "C": "Oxigeno"
+  },
+  "respuesta": "C",
+  "q": "ok"
+ }
+]
