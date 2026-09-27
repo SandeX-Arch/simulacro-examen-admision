@@ -61,6 +61,36 @@ table.rank-t td.n{width:34px; color:var(--muted); font-variant-numeric:tabular-n
 table.rank-t td.p{width:78px; text-align:right; font-variant-numeric:tabular-nums; font-weight:600}
 .rank-note{padding:10px 12px; font-size:.82rem; color:var(--muted)}
 
+/* ---------- panel del administrador ---------- */
+details.owner{padding:0}
+details.owner > summary{
+  cursor:pointer; padding:14px 18px; list-style:none;
+  display:flex; align-items:center; gap:8px; flex-wrap:wrap; border-radius:var(--r);
+}
+details.owner > summary::-webkit-details-marker{display:none}
+details.owner > summary::before{
+  content:"\25B8"; color:var(--muted); font-size:.9rem; transition:transform .15s;
+}
+details.owner[open] > summary::before{transform:rotate(90deg)}
+details.owner[open] > summary{border-bottom:1px solid var(--line); border-radius:var(--r) var(--r) 0 0}
+.steps{margin:14px 0 0; padding-left:22px; display:grid; gap:10px; font-size:.9rem; color:var(--ink-2)}
+.steps li::marker{color:var(--muted); font-weight:600}
+.steps code, .owner code{
+  background:var(--surface-2); border:1px solid var(--line); border-radius:5px;
+  padding:1px 5px; font-size:.85em; word-break:break-all;
+}
+.codepane{margin:8px 0}
+.codepane textarea{
+  width:100%; min-height:120px; resize:vertical; font:12px/1.45 ui-monospace, Consolas, monospace;
+  background:var(--surface-2); white-space:pre; overflow-wrap:normal; overflow-x:auto;
+}
+.row{display:flex; gap:8px; align-items:center; margin-top:8px}
+.row.wrap{flex-wrap:wrap}
+.grow{flex:1; min-width:190px}
+#apiMsg{margin:12px 0 6px; min-height:1.2em}
+#apiMsg.ok{color:var(--ok)}
+#apiMsg.warn{color:var(--warn)}
+
 /* ---------- tarjetas / vistas ---------- */
 .view{padding:18px 0 8px}
 .card{background:var(--surface); border:1px solid var(--line); border-radius:var(--r);

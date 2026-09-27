@@ -185,7 +185,7 @@
 
   function enviar(res) {
     var out = $("#resEnvio");
-    var url = CFG.sheetsApiUrl || new URLSearchParams(location.search).get("api") || "";
+    var url = apiUrl();
     out.textContent = "";
     if (!url) {
       out.textContent = "Ranking compartido no configurado: el resultado se guardó solo en este navegador.";
@@ -231,6 +231,92 @@
     try { localStorage.removeItem(LS + "progreso"); } catch (e) {}
   }
 
+  /* ---------------- configuracion del backend ---------------- */
+  function apiGuardada() {
+    try { return (localStorage.getItem(LS + "api") || "").trim(); } catch (e) { return ""; }
+  }
+
+  function apiUrl() {
+    var q = (new URLSearchParams(location.search).get("api") || "").trim();
+    if (q) return q;                                  // override de ad-hoc (?api=...)
+    if (apiGuardada()) return apiGuardada();         // lo que guardo el admin en este navegador
+    return (CFG.sheetsApiUrl || "").trim();          // data/config.js
+  }
+
+  function mostrarPanelOwner(forzar) {
+    $("#panelOwner").hidden = forzar ? false : !!apiUrl();
+  }
+
+  // Solo se aceptan URLs con forma de Web App de Apps Script. Se admite localhost
+  // para poder probar el backend en local sin desplegarlo.
+  var RE_URL = /^(https:\/\/script\.google(usercontent)?\.com\/macros\/s\/[^/]+\/exec|https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?\/.*)$/;
+
+  function urlValida(u) {
+    return RE_URL.test(String(u || "").trim());
+  }
+
+  function mensaje(txt, tipo) {
+    var m = $("#apiMsg");
+    m.textContent = txt;
+    m.className = "small " + (tipo || "");
+  }
+
+  function probarApi(url) {
+    if (!urlValida(url)) {
+      mensaje("Esa URL no tiene la forma de un Web App de Apps Script (debe terminar en /exec).", "warn");
+      return false;
+    }
+    mensaje("Comprobando…");
+    fetch(url + (String(url).indexOf("?") < 0 ? "?" : "&") + "accion=ping", { cache: "no-cache" })
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        if (j && j.ok) {
+          mensaje("Conectado. Hoja \"" + j.hoja + "\", resultados guardados: " + j.resultados + ".", "ok");
+        } else {
+          mensaje("El script respondió con error: " + (j && j.error ? j.error : "respuesta vacía"), "warn");
+        }
+      })
+      .catch(function () {
+        mensaje("No se pudo contactar el script. Revisa que el acceso sea \"Cualquiera\".", "warn");
+      });
+    return true;
+  }
+
+  function cablearOwner() {
+    $("#btnCopiarGs").addEventListener("click", function () {
+      fetch("code/Code.gs", { cache: "no-cache" })
+        .then(function (r) { return r.text(); })
+        .then(function (t) {
+          $("#gsCode").value = t;
+          $("#gsCode").select();
+          var ok = false;
+          try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+          mensaje(ok ? "Código copiado. Pégalo en Apps Script." : "No se pudo copiar: selecciona el texto y pulsa Ctrl+C.", ok ? "ok" : "warn");
+        })
+        .catch(function () {
+          mensaje("No se pudo cargar code/Code.gs. Ábrelo desde el enlace de GitHub.", "warn");
+        });
+    });
+
+    $("#btnProbar").addEventListener("click", function () { probarApi($("#inApi").value); });
+
+    $("#btnGuardarApi").addEventListener("click", function () {
+      var u = $("#inApi").value.trim();
+      if (!urlValida(u)) {
+        mensaje("Esa URL no parece un Web App de Apps Script, así que no se guardó. Debe ser https://script.google.com/macros/s/.../exec", "warn");
+        return;
+      }
+      try { localStorage.setItem(LS + "api", u); } catch (e) {}
+      $("#inApi").value = "";
+      mostrarPanelOwner();
+      cargarRanking();
+      mensaje("Ranking activado en este navegador.", "ok");
+    });
+
+    // si ya habia una URL guardada, laShows para poder corregirla
+    $("#inApi").value = apiGuardada();
+  }
+
   /* ---------------- ranking ---------------- */
   function pintarRanking(filas) {
     var b = $("#rankBody"), st = $("#rankState");
@@ -257,21 +343,27 @@
   }
 
   function cargarRanking() {
-    var url = CFG.sheetsApiUrl || new URLSearchParams(location.search).get("api") || "";
+    var url = apiUrl();
+    mostrarPanelOwner();
     if (!url) {
       $("#rankState").textContent = "no configurado";
       $("#rankState").className = "pill off";
-      $("#rankBody").innerHTML = '<p class="rank-note">El ranking compartido se habilita pegaando la URL del Web App de Google Apps Script en <code>data/config.js</code>.</p>';
+      $("#rankBody").innerHTML = '<p class="rank-note">El ranking compartido se habilita conectando el Web App de Google Apps Script.</p>';
       return;
     }
     $("#rankState").textContent = "cargando…";
     fetch(url, { cache: "no-cache" })
       .then(function (r) { return r.json(); })
-      .then(function (j) { pintarRanking(j && j.top); })
-      .catch(function () {
+      .then(function (j) {
+        if (j && j.ok === false) throw new Error(j.error || 'el script devolvio un error');
+        pintarRanking(j && j.top);
+      })
+      .catch(function (e) {
         $("#rankState").textContent = "sin conexión";
         $("#rankState").className = "pill off";
-        $("#rankBody").innerHTML = '<p class="rank-note">No se pudo consultar el ranking. Revisa la URL de <code>data/config.js</code>.</p>';
+        $("#rankBody").innerHTML = '<p class="rank-note">No se pudo consultar el ranking (' + esc(e.message) + ').</p>';
+        // si hay una URL guardada pero no responde, reopening panel para poder corregirla
+        if (apiUrl()) mostrarPanelOwner(true);
       });
   }
 
@@ -335,6 +427,8 @@
 
   /* ---------------- init ---------------- */
   function init() {
+    cablearOwner();
+
     $("#btnComenzar").addEventListener("click", function () {
       S.datos = leerDatos();
       if (!S.datos.nombre || !S.datos.documento) {

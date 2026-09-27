@@ -31,6 +31,47 @@
   <div id="rankBody" class="rank-body"><p class="muted small">Consultando resultados…</p></div>
 </section>
 
+<!-- ============ PANEL DEL ADMINISTRADOR (solo si el ranking no esta configurado) ============ -->
+<section class="wrap" id="panelOwner" hidden>
+  <details class="card owner">
+    <summary>
+      <b>Conectar el ranking compartido</b>
+      <span class="muted small">— solo para quien administra el sitio</span>
+    </summary>
+
+    <ol class="steps">
+      <li>Crea un Google Sheet nuevo y abre <b>Extensiones → Apps Script</b>.</li>
+      <li>Borra el contenido de <code>Code.gs</code> y pega el código del backend:
+        <div class="codepane">
+          <textarea id="gsCode" readonly spellcheck="false" aria-label="Codigo de Apps Script"></textarea>
+          <div class="row">
+            <button id="btnCopiarGs" class="btn btn-ghost" type="button">Copiar código</button>
+            <a class="btn btn-ghost" href="https://github.com/SandeX-Arch/simulacro-examen-admision/blob/master/code/Code.gs" target="_blank" rel="noopener">Abrir en GitHub</a>
+          </div>
+        </div>
+      </li>
+      <li>En el código, pega el ID de tu Sheet en <code>SPREADSHEET_ID</code>
+        (aparece en la URL del Sheet, entre <code>/d/</code> y <code>/edit</code>).</li>
+      <li><b>Implementar → Nueva aplicación web</b>:
+        <i>Ejecutar como: Yo</i> · <i>Quién tiene acceso: Cualquiera</i>.</li>
+      <li>Pega aquí la URL que termina en <code>/exec</code>:
+        <div class="row wrap">
+          <input id="inApi" class="grow" type="url" spellcheck="false"
+                 placeholder="https://script.google.com/macros/s/AKfycb.../exec">
+          <button id="btnProbar" class="btn btn-ghost" type="button">Probar</button>
+          <button id="btnGuardarApi" class="btn btn-primary" type="button">Guardar y activar</button>
+        </div>
+      </li>
+    </ol>
+
+    <p id="apiMsg" class="small"></p>
+    <p class="muted small">
+      Esto guarda la URL solo en <b>este navegador</b>, para que puedas probar el ranking ya.
+      Para que lo usen todos, deja la URL en <code>data/config.js</code> y súbelo al repositorio.
+    </p>
+  </details>
+</section>
+
 <main class="wrap">
 
   <!-- ============ 1. INICIO ============ -->

@@ -48,27 +48,48 @@ trampas**. Para un examen real, elije la clave desde el servidor.
 
 ## Habilitar el ranking compartido (Google Sheets)
 
-El sitio funciona sin esto: guarda el resultado solo en el navegador y muestra el ranking como
+El sitio funciona sin esto: guarda el resultado solo en el navegador y el ranking sale
 "no configurado".
 
-1. Crea un Google Sheet nuevo.
+### Opción rápida (sin tocar el repositorio)
+
+En la página de inicio hay un panel **"Conectar el ranking compartido"** (solo visible mientras
+el ranking no esté configurado). Desde ahí puedes copiar el código de Apps Script, probarlo y
+activar el ranking en ese navegador al instante. La URL queda en `localStorage`, así que es
+lo que usas tú para probar.
+
+### Opción definitiva (para que lo usen todos)
+
+1. Crea un Google Sheet nuevo y anota su ID (está en la URL, entre `/d/` y `/edit`).
 2. Menú **Extensiones → Apps Script**.
-3. Borra el contenido de `Code.gs` y pega el archivo de `code/Code.gs` de este repositorio.
-4. **Implementar → Nueva aplicación web**
+3. Borra el contenido de `Code.gs` y pega el archivo de `code/Code.gs` de este repositorio
+   (el panel del sitio tiene un botón para copiarlo).
+4. Pega tu ID en `SPREADSHEET_ID`. Si lo dejas vacío y el script está ligado a un Sheet,
+   se deduce solo.
+5. **Implementar → Nueva aplicación web**
    - Ejecutar como: **Yo**
    - Quién tiene acceso: **Cualquiera**
-5. Copia la URL que termina en `/exec`.
-6. Pégala en `data/config.js`:
+6. Copia la URL que termina en `/exec`.
+7. Pégala en `data/config.js`:
    ```js
    window.APP_CONFIG = { sheetsApiUrl: "https://script.google.com/macros/s/TU_ID/exec" };
    ```
-7. Sube el cambio a GitHub (tarda unos minutos en reflejarse en Pages).
+8. Sube el cambio a GitHub (tarda de 1 a 2 minutos en reflejarse en Pages).
 
 La hoja `Resultados` se crea sola con las columnas: Fecha, Nombre, Documento, Correo, Forma,
 Aciertos, Total, Porcentaje.
 
-> Si el ranking no carga, revisa que el Web App esté en "Cualquiera". También puedes probarlo
-> con `?api=TU_URL` en la barra de direcciones sin tocar el repositorio.
+**Orden de prioridad de la URL** (en `assets/app.js`):
+
+1. `?api=TU_URL` en la barra de direcciones — override puntual, no se guarda
+2. `localStorage` — lo que activa el panel del admin en ese navegador
+3. `data/config.js` — el valor oficial, el que ven todos
+
+**Diagnóstico:** abre `TU_URL?accion=ping` en el navegador. Si responde
+`{"ok":true,...}` el script está vivo y te dice cuántos resultados hay.
+
+> Si el ranking no carga, revisa que el Web App esté en "Cualquiera". El panel se vuelve a
+> mostrar solo si detecta una URL que no responde, para que puedas corregirla.
 
 ---
 
@@ -122,11 +143,13 @@ Con 408 preguntas y 1000 slots no se puede cumplir "cada pregunta exactamente do
 
 ```bash
 pip install pymupdf rapidocr-onnxruntime opencv-python-headless numpy
-python tools/parse_final.py    # clave de respuestas -> final_answers.json
-python tools/parse_bank.py     # OCR + clave -> bank.json
-python tools/make_forms.py     # bank.json -> forms.json (20 formas)
+set VALOTARIO_PDF=C:\ruta\al\valotario.pdf
+python tools/parse_final.py    # clave de respuestas -> build/final_answers.json
+python tools/parse_bank.py     # OCR + clave -> build/bank.json
+python tools/make_forms.py     # bank.json -> build/forms.json (20 formas)
 python tools/export_web.py     # -> data/forms.json, data/clave.json, data/meta.json
 python tools/gen_pdfs.py       # -> docs/*.pdf
+python tools/gen_clave_md.py   # -> ../CLAVE_RESPUESTAS.md
 ```
 
 Comprobaciones:
@@ -135,6 +158,16 @@ Comprobaciones:
 python tools/verify_forms.py   # 1000/1000 respuestas correctas tras el barajado
 python tools/verify_pdfs.py    # texto extraíble, sin desbordes
 python tools/validate_web.py   # referencias JS->HTML, cobertura de la clave
+```
+
+Las pruebas de interfaz van aparte (necesitan `pip install selenium`):
+
+```bash
+python tools/mock_appscript.py                    # backend falso en :8732
+python -m http.server 8731                        # en otra terminal
+python tools/test_e2e.py      # recorre una forma entera y espera 50/50
+python tools/test_rank.py     # carga del ranking, escape de HTML, POST
+python tools/test_panel.py    # panel de configuración del administrador
 ```
 
 ---
