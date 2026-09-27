@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 """Prueba de la ruta del RANKING contra el mock de Apps Script.
 Verifica: carga de la tabla, escape de HTML, envio del resultado al hacer entrega."""
-import json, os, sys, io, time
+import json, os, sys, io, time, pathlib as _pl
+sys.path.insert(0, str(_pl.Path(__file__).resolve().parent))
+from _paths import DATA  # noqa: E402
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.edge.options import Options
@@ -9,7 +11,7 @@ from selenium.webdriver.edge.options import Options
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 SITE = sys.argv[1] if len(sys.argv) > 1 else "http://127.0.0.1:8731/index.html"
 API = "http://127.0.0.1:8732/exec"
-POST = r"C:\Users\musky\AppData\Local\Temp\opencode\mock_post.txt"
+POST = str(_pl.Path(__file__).resolve().parent / "mock_post.txt")
 if os.path.exists(POST):
     os.remove(POST)
 
@@ -68,9 +70,9 @@ try:
         fallos.append("faltan dice %r, se esperaba 47" % aviso)
 
     # forzar entrega contestando el resto
-    clave = json.load(open(r"C:\Users\musky\OneDrive\Documentos\SIMULACROS\examen-admision\data\clave.json",
+    clave = json.load(open(DATA / "clave.json",
                           encoding="utf-8"))["1"]
-    forms = json.load(open(r"C:\Users\musky\OneDrive\Documentos\SIMULACROS\examen-admision\data\forms.json",
+    forms = json.load(open(DATA / "forms.json",
                            encoding="utf-8"))
     pregs = [f for f in forms if f["id"] == 1][0]["preguntas"]
     for q in pregs:

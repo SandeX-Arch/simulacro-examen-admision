@@ -3,7 +3,7 @@
 GET  /exec -> {"ok":true,"top":[...]}   (con CORS)
 POST /exec -> 204                      (el navegador lo ve opaco por no-cors)
 """
-import json, sys, io
+import json, sys, io, pathlib
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 TOP = [
@@ -37,7 +37,8 @@ class H(BaseHTTPRequestHandler):
     def do_POST(self):
         n = int(self.headers.get("Content-Length") or 0)
         crudo = self.rfile.read(n).decode("utf-8", "replace")
-        with open(r"C:\Users\musky\AppData\Local\Temp\opencode\mock_post.txt", "a", encoding="utf-8") as f:
+        salida = pathlib.Path(__file__).resolve().parent / "mock_post.txt"
+        with salida.open("a", encoding="utf-8") as f:
             f.write(crudo + "\n")
         self.send_response(204)
         self._cors()
