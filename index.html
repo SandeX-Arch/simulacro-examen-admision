@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Simulacro de Examen de Admisión</title>
-<meta name="description" content="Simulacro de examen de admisión: 20 formas de 50 preguntas con ranking compartido.">
+<meta name="description" content="Simulacro de examen de admisión: 20 exámenes de 50 preguntas con ranking compartido.">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
       <span class="brand-mark" aria-hidden="true"></span>
       <span class="brand-txt">
         <strong>Simulacro de Admisión</strong>
-        <small id="brandSub">20 formas · 50 preguntas</small>
+        <small id="brandSub">20 exámenes · 50 preguntas</small>
       </span>
     </div>
     <button id="btnSalir" class="btn btn-ghost" hidden>Salir</button>
@@ -85,8 +85,8 @@
   <!-- ============ 1. INICIO ============ -->
   <section id="viewInicio" class="view">
     <div class="card">
-      <h1>Elige tu forma</h1>
-      <p class="muted">Cada forma tiene 50 preguntas distintas. Ninguna se repite dentro de la misma forma.</p>
+      <h1>Elige tu examen</h1>
+      <p class="muted">Cada examen tiene 50 preguntas distintas. Ninguna se repite dentro del mismo examen.</p>
       <div id="gridFormas" class="grid-formas"></div>
     </div>
 
@@ -99,7 +99,7 @@
                  placeholder="Escribe tu nombre" required>
         </label>
       </div>
-      <p id="elegida" class="elegida">Forma seleccionada: <b>—</b></p>
+      <p id="elegida" class="elegida">Examen seleccionado: <b>—</b></p>
       <button id="btnComenzar" class="btn btn-primary btn-block" disabled>Comenzar</button>
       <p id="avisoDatos" class="warn" hidden>Escribe tu nombre para continuar.</p>
     </div>
@@ -109,7 +109,7 @@
   <section id="viewExamen" class="view" hidden>
     <div class="examen-head">
       <div>
-        <b id="exForma">Forma 1</b>
+        <b id="exForma">Examen 1</b>
         <span class="muted small" id="exNombre"></span>
       </div>
       <div class="prog">
@@ -154,7 +154,7 @@
       <div id="resTema" class="temas"></div>
       <div class="q-nav">
         <button id="btnRevisar" class="btn btn-ghost">Revisar respuestas</button>
-        <button id="btnOtra" class="btn btn-primary">Otra forma</button>
+        <button id="btnOtra" class="btn btn-primary">Otro examen</button>
       </div>
       <p id="resEnvio" class="muted small"></p>
     </div>

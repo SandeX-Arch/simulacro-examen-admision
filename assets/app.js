@@ -53,7 +53,7 @@
         S.forma = f.id;
         $$(".fbtn").forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
         b.setAttribute("aria-pressed", "true");
-        $("#elegida").innerHTML = "Forma seleccionada: <b>" + f.nombre + "</b>";
+        $("#elegida").innerHTML = "Examen seleccionado: <b>" + f.nombre + "</b>";
         $("#btnComenzar").disabled = false;
       });
       g.appendChild(b);
@@ -67,7 +67,7 @@
   /* ---------------- examen ---------------- */
   function pintarPregunta() {
     var p = S.preguntas[S.indice];
-    $("#exForma").textContent = "Forma " + S.forma;
+    $("#exForma").textContent = "Examen " + S.forma;
     $("#qNum").textContent = "Pregunta " + p.pos + " de " + S.preguntas.length;
     $("#qTopico").textContent = p.topico;
     $("#qStem").textContent = p.pregunta;
@@ -143,7 +143,7 @@
 
   function pintarResultado(res) {
     var pct = Math.round(res.aciertos / res.total * 100);
-    $("#resForma").textContent = S.preguntas.length + " preguntas · Forma " + S.forma;
+    $("#resForma").textContent = S.preguntas.length + " preguntas · Examen " + S.forma;
     $("#puntaje").textContent = res.aciertos;
     $("#resNombre").textContent = S.datos.nombre;
     $("#resBar").firstElementChild.style.width = pct + "%";
@@ -195,17 +195,35 @@
       mode: "no-cors",
       headers: { "Content-Type": "text/plain;charset=utf-8" },
       body: JSON.stringify({
-      nombre: S.datos.nombre,
-      forma: S.forma,
+        nombre: S.datos.nombre,
+        forma: S.forma,
         aciertos: res.aciertos,
         total: res.total
       })
     }).then(function () {
       out.textContent = "Resultado enviado. El ranking se actualiza en unos segundos.";
-      setTimeout(cargarRanking, 2500);
+      // Apps Script puede tardar en aplicar la escritura: refrescamos unas veces
+      // hasta que el nombre aparezca, en vez de darlo por bueno al primer intento
+      esperarEnRanking(S.datos.nombre, 0);
     }).catch(function () {
       out.textContent = "No se pudo enviar el resultado (sin conexión). Quedó guardado en este navegador.";
     });
+  }
+
+  /** Refresca el ranking hasta que `nombre` aparezca, o hasta agotar los intentos. */
+  function esperarEnRanking(nombre, intento) {
+    if (intento >= 4) return;
+    setTimeout(function () {
+      cargarRanking();
+      setTimeout(function () {
+        var st = $("#rankState");
+        if (st && /participante/.test(st.textContent)) {
+          var b = $("#rankBody").textContent || "";
+          if (!nombre || b.indexOf(nombre) !== -1) return;   // ya salio
+        }
+        if (intento < 3) esperarEnRanking(nombre, intento + 1);
+      }, 2600);
+    }, intento === 0 ? 2500 : 0);
   }
 
   function entregar(forzar) {
@@ -307,7 +325,8 @@
       mensaje("Ranking activado en este navegador.", "ok");
     });
 
-    // si ya habia una URL guardada, laShows para poder corregirla
+    // si el administrador ya habia configurado una URL en este navegador,
+    // la cargamos para que pueda corregirla
     $("#inApi").value = apiGuardada();
   }
 
@@ -320,7 +339,7 @@
       return;
     }
     st.textContent = filas.length + " participante" + (filas.length === 1 ? "" : "s");
-    var h = '<table class="rank-t"><thead><tr><th>#</th><th>Participante</th><th>Forma</th><th>Puntaje</th></tr></thead><tbody>';
+    var h = '<table class="rank-t"><thead><tr><th>#</th><th>Participante</th><th>Examen</th><th>Puntaje</th></tr></thead><tbody>';
     filas.forEach(function (f, i) {
       var pct = f.total ? Math.round(f.aciertos / f.total * 100) : 0;
       h += "<tr><td class='n'>" + (i + 1) + "</td><td>" + esc(f.nombre) +
@@ -336,7 +355,7 @@
     });
   }
 
-  function cargarRanking() {
+  function cargarRanking(intentos) {
     var url = apiUrl();
     mostrarPanelOwner();
     if (!url) {
@@ -353,11 +372,19 @@
         pintarRanking(j && j.top);
       })
       .catch(function (e) {
+        // el primer hit tras un arranque en frio puede fallar o tardar: un reintento
+        // salva el ranking sin recargar la pagina
+        if ((intentos || 0) < 1) {
+          setTimeout(function () { cargarRanking(1); }, 2500);
+          return;
+        }
         $("#rankState").textContent = "sin conexión";
         $("#rankState").className = "pill off";
         $("#rankBody").innerHTML = '<p class="rank-note">No se pudo consultar el ranking (' + esc(e.message) + ').</p>';
-        // si hay una URL guardada pero no responde, reopening panel para poder corregirla
-        if (apiUrl()) mostrarPanelOwner(true);
+        // reabrir el panel solo si la URL rota es la que guardo un usuario en este
+        // navegador. Si viene de data/config.js es la oficial y no hay nada que
+        // corregir aqui: ensenarlo a cada visitante seria unnistico
+        if (apiGuardada()) mostrarPanelOwner(true);
       });
   }
 
@@ -384,7 +411,7 @@
     prev.style.marginTop = "12px";
     var r = recuperar();
     if (r && r.forma) {
-      prev.innerHTML = "Hay un examen en pausa (Forma " + esc(String(r.forma)) + ", " +
+      prev.innerHTML = "Hay un examen en pausa (Examen " + esc(String(r.forma)) + ", " +
         Object.keys(r.resp || {}).length + " respondidas). <button id='btnSeguir' class='btn btn-ghost' style='margin-left:8px'>Continuar</button>";
     } else {
       prev.innerHTML = "";
@@ -400,7 +427,7 @@
     return Promise.all([cargar("data/forms.json"), cargar("data/clave.json")]).then(function (r) {
       var formas = r[0], claves = r[1];
       var f = formas.filter(function (x) { return x.id === Number(forma); })[0];
-      if (!f) throw new Error("Forma no encontrada");
+      if (!f) throw new Error("Examen no encontrado");
       S.forma = f.id;
       S.preguntas = f.preguntas;
       S.clave = claves;
@@ -453,7 +480,7 @@
     $("#btnOtra").addEventListener("click", function () {
       S.forma = null; S.resp = {}; S.marcadas = {}; S.preguntas = [];
       $$(".fbtn").forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
-      $("#elegida").innerHTML = "Forma seleccionada: <b>—</b>";
+      $("#elegida").innerHTML = "Examen seleccionado: <b>—</b>";
       $("#btnComenzar").disabled = true;
       ver("inicio");
       cargarRanking();
@@ -473,7 +500,7 @@
       S.meta = r[1];
       pintarFormas(r[0]);
       $("#fTotal").textContent = r[1].preguntasDistintas;
-      $("#brandSub").textContent = r[0].length + " formas · " + r[1].porForma + " preguntas";
+      $("#brandSub").textContent = r[0].length + " exámenes · " + r[1].porForma + " preguntas";
       ofrecerContinuar();
     }).catch(function (e) {
       $("#rankBody").innerHTML = '<p class="rank-note">No se pudieron cargar los datos del examen (' + esc(e.message) + ").</p>";

@@ -102,8 +102,8 @@ try:
     drv.find_element(By.ID, "inNombre").send_keys("X")
     drv.find_element(By.ID, "btnComenzar").click()
     time.sleep(1.0)
-    if drv.find_element(By.ID, "exForma").text.strip() != "Forma 1":
-        fallos.append("la segunda forma no arranco en la Forma 1")
+    if drv.find_element(By.ID, "exForma").text.strip() != "Examen 1":
+        fallos.append("la segunda forma no arranco en el Examen 1")
 finally:
     drv.quit()
 

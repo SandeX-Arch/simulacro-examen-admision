@@ -1,10 +1,14 @@
 # -*- coding: utf-8 -*-
 """Prueba del panel 'Conectar ranking':
- - aparece cuando no hay URL configurada
- - el boton de copiar carga code/Code.gs
- - una URL invalida se rechaza
- - guardar una URL buena activa el ranking y guarda en localStorage
- - al recargar, el panel desaparece
+  - aparece cuando no hay URL configurada
+  - el boton de copiar carga code/Code.gs
+  - una URL invalida se rechaza
+  - guardar una URL buena activa el ranking y guarda en localStorage
+  - al recargar, el panel desaparece
+  - con data/config.js configurado, el panel NO aparece
+
+El caso 'sin configurar' se fuerza bloqueando data/config.js por CDP: si no, el
+sitio ya trae la URL oficial en config.js y el panel estaria (bien) oculto.
 """
 import json, os, sys, io, time
 from selenium import webdriver
@@ -19,7 +23,23 @@ fallos = []
 opt = Options()
 for a in ("--headless=new", "--disable-gpu", "--no-sandbox", "--window-size=1280,900"):
     opt.add_argument(a)
+opt.set_capability("ms:edgeOptions", {"args": []})
 drv = webdriver.Edge(options=opt)
+
+CDP = "Network.enable"
+try:
+    drv.execute_cdp_cmd(CDP, {})
+except Exception as e:
+    print("aviso: no se pudo activar CDP:", e)
+
+
+def bloquear_config(bloquear):
+    """Simula un sitio recien desplegado, todavia sin URL oficial en config.js."""
+    try:
+        drv.execute_cdp_cmd("Network.setBlockedURLs",
+                            {"urls": ["*data/config.js"] if bloquear else []})
+    except Exception as e:
+        print("aviso: setBlockedURLs fallo:", e)
 
 
 def panel_visible():
@@ -27,9 +47,29 @@ def panel_visible():
 
 
 try:
-    # ---------- 1. sin configurar: el panel esta visible ----------
+    # ---------- 0. con config.js configurado, el panel no debe aparecer ----------
+    bloquear_config(False)
+    drv.execute_cdp_cmd("Network.clearBrowserCache", {})
     drv.get(SITE)
-    time.sleep(1.8)
+    time.sleep(2.2)
+    oficial = drv.execute_script(
+        "return (window.APP_CONFIG && window.APP_CONFIG.sheetsApiUrl) || ''")
+    if oficial:
+        if panel_visible():
+            fallos.append("con URL oficial en config.js el panel deberia quedar oculto")
+        else:
+            print("config.js con URL oficial -> panel oculto: OK")
+    else:
+        print("config.js vacio en este sitio: se probara solo el camino sin configurar")
+
+    # ---------- 1. sin configurar: el panel esta visible ----------
+    bloquear_config(True)
+    drv.execute_cdp_cmd("Network.clearBrowserCache", {})
+    drv.get(SITE)
+    time.sleep(2.2)
+    drv.execute_script("localStorage.clear()")
+    drv.get(SITE)
+    time.sleep(2.2)
     if not panel_visible():
         fallos.append("el panel del admin no aparece sin URL configurada")
     else:
@@ -119,6 +159,7 @@ try:
 
     # ---------- 7. limpiar ----------
     drv.execute_script("localStorage.removeItem('simu_v1_api')")
+    bloquear_config(False)
 finally:
     drv.quit()
 
